@@ -87,9 +87,12 @@ Github
 Wireframes produced using balsamiq wireframes
 [https://balsamiq.com/](https://balsamiq.com/)
 
+## Acknowledgements
 
-Mentor
-Antonio Rodriegez
+Mentor Antonio Rodriguez
+Code Institute Tutorials
+Slack- Code Institute
+
 ## References
 
 [https://www.taniarascia.com/how-to-create-a-memory-game-super-mario-with-plain-javascript/](https://www.taniarascia.com/how-to-create-a-memory-game-super-mario-with-plain-javascript/)
@@ -97,6 +100,6 @@ Antonio Rodriegez
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxODMzMTkyOCwxMDk5NTI1ODE1LDEzMj
+eyJoaXN0b3J5IjpbLTM3OTg4MzY2NSwxMDk5NTI1ODE1LDEzMj
 I5NTU4MDgsODg1MTU5NzQyLDczMDk5ODExNl19
 -->
