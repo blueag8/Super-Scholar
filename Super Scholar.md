@@ -29,12 +29,17 @@ To play a game that is visually appealing. Easy to navigate and provides clear i
 **The Plan**
 
 *Main Page*
+HTML/CSS
 Display Card 
 Help Modal with pop up
-Play button with function Get Data 
-Left Button Marvel
+Play button 
+Left Button (Marvel)
 Right Button DC
 Score
+Game Over Modal
+	Scoreboard
+	Play again button
+	
 Functionality 
 
 
@@ -63,6 +68,6 @@ Difficulty levels perhaps this can be acheived by including characters that are 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMDM1NDM1MSwxMDk5NTI1ODE1LDEzMj
-I5NTU4MDgsODg1MTU5NzQyLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTE0NzEwOTY2NTQsMTA5OTUyNTgxNSwxMz
+IyOTU1ODA4LDg4NTE1OTc0Miw3MzA5OTgxMTZdfQ==
 -->
