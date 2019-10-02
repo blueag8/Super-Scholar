@@ -56,8 +56,8 @@ Functionality
 	Load Score board 
 	UserInput function for Name
     append score to name
-    append name and score to scoreboard/gameover modal
-    play again- clear score reload counter
+    append name and score to                                                                            scoreboard/gameover modal
+    play again- clear score reload counter.
     
   
     
@@ -89,6 +89,6 @@ Difficulty levels perhaps this can be acheived by including characters that are 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNTg4MDEzLDEwOTk1MjU4MTUsMTMyMj
-k1NTgwOCw4ODUxNTk3NDIsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTUxODc5OTQ4MSwxMDk5NTI1ODE1LDEzMj
+I5NTU4MDgsODg1MTU5NzQyLDczMDk5ODExNl19
 -->
