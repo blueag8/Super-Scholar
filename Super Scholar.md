@@ -1,5 +1,5 @@
 
-# Super Scholar
+# Super-Scholar
 *A Game to test your super knowledge*
 Do you know your Marvel vs DC superheroes and villains?
 
@@ -100,6 +100,6 @@ Slack- Code Institute
 https://www.w3schools.com
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2ODczMjcyMywxMDk5NTI1ODE1LDEzMj
-I5NTU4MDgsODg1MTU5NzQyLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTE3NjU2Mjk0NzIsMTA5OTUyNTgxNSwxMz
+IyOTU1ODA4LDg4NTE1OTc0Miw3MzA5OTgxMTZdfQ==
 -->
