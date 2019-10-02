@@ -79,13 +79,18 @@ Github
 **Testing**
 **Deployment**
 
-(https://comicvine.gamespot.com/api/documentation)
-# References
+# Credits
+[https://comicvine.gamespot.com/api/documentation](https://comicvine.gamespot.com/api/documentation)
+
+
+Wireframes produced using 
+## References
+
 [https://www.taniarascia.com/how-to-create-a-memory-game-super-mario-with-plain-javascript/](https://www.taniarascia.com/how-to-create-a-memory-game-super-mario-with-plain-javascript/)
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NDQ3MTU3MywxMDk5NTI1ODE1LDEzMj
-I5NTU4MDgsODg1MTU5NzQyLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTExMjI2NzM5NjcsMTA5OTUyNTgxNSwxMz
+IyOTU1ODA4LDg4NTE1OTc0Miw3MzA5OTgxMTZdfQ==
 -->
