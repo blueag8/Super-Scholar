@@ -11,8 +11,15 @@ Technologies used for this project include
 
 -HTML
 -CSS
-_J
+-Javascript
+
+
+
+
+he Idea
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4ODE5MjE4Niw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMjAyNTI5NzUzMSw3MzA5OTgxMTZdfQ==
 -->
