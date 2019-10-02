@@ -82,8 +82,9 @@ Github
 # Credits
 [https://comicvine.gamespot.com/api/documentation](https://comicvine.gamespot.com/api/documentation)
 
+[https://www.kaggle.com/fivethirtyeight/fivethirtyeight-comic-characters-dataset/version/107](https://www.kaggle.com/fivethirtyeight/fivethirtyeight-comic-characters-dataset/version/107)
 
-Wireframes produced using 
+Wireframes produced using ba[https://balsamiq.com/](https://balsamiq.com/)
 ## References
 
 [https://www.taniarascia.com/how-to-create-a-memory-game-super-mario-with-plain-javascript/](https://www.taniarascia.com/how-to-create-a-memory-game-super-mario-with-plain-javascript/)
@@ -91,6 +92,6 @@ Wireframes produced using
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjI2NzM5NjcsMTA5OTUyNTgxNSwxMz
-IyOTU1ODA4LDg4NTE1OTc0Miw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTU5MTA5MjY2MCwxMDk5NTI1ODE1LDEzMj
+I5NTU4MDgsODg1MTU5NzQyLDczMDk5ODExNl19
 -->
