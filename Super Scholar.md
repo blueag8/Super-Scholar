@@ -14,13 +14,20 @@ Technologies used for this project include
 
 The goal is to create a front-end web application that has interactive functionality and "Use[s] JavaScript to have the site produce relevant responses dependent on users' actions".
 
-## External Users Goals
-(Based on the Project Idea ple 2-Build a Memory Game)
+I have decided to base my project on the Project Idea Example #2-
+Build a Memory Game.
+
+**External Users Goals**
+To have fun playing a game
+
+
+
+
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NTc3MDgzMSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE1NzgxODI2MjYsNzMwOTk4MTE2XX0=
 -->
