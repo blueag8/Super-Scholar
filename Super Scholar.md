@@ -13,7 +13,7 @@ Technologies used for this project include
 -CSS
 -Javascript
 
-Create a front-end web application
+The goal is to create a front-end web application that has interactive functionality,
 
 
 he Idea
@@ -21,5 +21,5 @@ he Idea
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjI5Nzg4NjEsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTYxNzgwNjM0MCw3MzA5OTgxMTZdfQ==
 -->
