@@ -13,7 +13,7 @@ Technologies used for this project include
 -CSS
 -Javascript
 
-
+Create a front-end web application
 
 
 he Idea
@@ -21,5 +21,5 @@ he Idea
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNTI5NzUzMSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTEyNjI5Nzg4NjEsNzMwOTk4MTE2XX0=
 -->
