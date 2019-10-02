@@ -18,9 +18,12 @@ I have decided to base my project on the Project Idea Example #2-
 Build a Memory Game.
 
 **External Users Goals**
-To have fun playing a game
+To have fun playing a game.
 
+**Site Owner's Goal**
+To have fun playing the game and build a game other's emjoy playing.
 
+Potentia
 
 
 
@@ -29,5 +32,5 @@ To have fun playing a game
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzgxODI2MjYsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTMzMTcxMjgwLDczMDk5ODExNl19
 -->
