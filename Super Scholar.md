@@ -43,10 +43,13 @@ Game Over Modal
 	Play again button
 	
 Functionality 
-
-Play Button-Onclick load data random 
-Click left if Character is Marval
-Click Right if Character is DC
+	Help Modal Pop Up on Click
+	Play Button-Onclick load data 
+    Randomise Character selections 
+	Click left if Character is Marval
+	Click Right if Character is DC
+	If Selection is correct append 10+ score
+	Flas 
 
 
 
@@ -74,6 +77,6 @@ Difficulty levels perhaps this can be acheived by including characters that are 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUzOTIzOTc3LDEwOTk1MjU4MTUsMTMyMj
-k1NTgwOCw4ODUxNTk3NDIsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTc5NTU1MDY1NCwxMDk5NTI1ODE1LDEzMj
+I5NTU4MDgsODg1MTU5NzQyLDczMDk5ODExNl19
 -->
