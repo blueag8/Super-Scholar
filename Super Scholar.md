@@ -58,13 +58,6 @@ Functionality
     append score to name
     append name and score to                                                                            scoreboard/gameover modal
     play again- clear score reload counter.
-    
-  
-    
-    
-
-
-
 
 **Wireframes**
 ![wireframe for Super Scholar](https://res.cloudinary.com/blueag8/image/upload/v1570046738/Super%20Scholar/Desktop_Mockup_s93syp.png)
@@ -80,15 +73,17 @@ Scoreboard
 **Future Features to Implement**
 Difficulty levels perhaps this can be acheived by including characters that are least known or grouped by popularity.
 
+**Version contol**
+Github 
 
+**Testing**
+**Deployment**
 
-
-
-
+# Credits
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxODc5OTQ4MSwxMDk5NTI1ODE1LDEzMj
-I5NTU4MDgsODg1MTU5NzQyLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTIxMDIwMDQzODksMTA5OTUyNTgxNSwxMz
+IyOTU1ODA4LDg4NTE1OTc0Miw3MzA5OTgxMTZdfQ==
 -->
