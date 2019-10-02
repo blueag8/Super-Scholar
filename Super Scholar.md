@@ -30,8 +30,7 @@ To play a game that is visually appealing. Easy to navigate and provides clear i
 
  - List item
 **Wireframes**
-
-    enter code here
+![wireframe for Super Scholar](https://res.cloudinary.com/blueag8/image/upload/v1567947477/Babyappytite/wireframe_for_babyappytite_xvntx4.jpg)
 
 **Features** 
 Help/Instructions 
@@ -51,6 +50,6 @@ Difficulty levels perhaps this can be acheived by including characters that are 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MTEyNjU1LDg4NTE1OTc0Miw3MzA5OT
-gxMTZdfQ==
+eyJoaXN0b3J5IjpbMTMyMjk1NTgwOCw4ODUxNTk3NDIsNzMwOT
+k4MTE2XX0=
 -->
