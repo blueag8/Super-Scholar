@@ -23,7 +23,9 @@ To have fun playing a game.
 **Site Owner's Goal**
 To have fun playing the game and build a game other's emjoy playing.
 
-Potentia
+**Users Expectations**
+To play a game that is visually appealing. Easy to navigate and provides clear instructions on how to play. As a user 
+
 
 
 
@@ -32,5 +34,5 @@ Potentia
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMTcxMjgwLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTM1MTI2MDc3OSw3MzA5OTgxMTZdfQ==
 -->
