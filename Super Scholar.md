@@ -24,7 +24,10 @@ To have fun playing a game.
 To have fun playing the game and build a game other's emjoy playing.
 
 **Users Expectations**
-To play a game that is visually appealing. Easy to navigate and provides clear instructions on how to play. As a user 
+To play a game that is visually appealing. Easy to navigate and provides clear instructions on how to play. As a player I want to know how I am progressing so I would like feedback such as a scoreboard.
+
+Features 
+
 
 
 
@@ -34,5 +37,5 @@ To play a game that is visually appealing. Easy to navigate and provides clear i
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MTI2MDc3OSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE4OTU2NDA1OTEsNzMwOTk4MTE2XX0=
 -->
