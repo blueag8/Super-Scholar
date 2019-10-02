@@ -32,6 +32,10 @@ To play a game that is visually appealing. Easy to navigate and provides clear i
 Display Card 
 Help Modal with pop up
 Play button with function Get Data 
+Left Button Marvel
+Right Button DC
+Score
+Functionality 
 
 
 
@@ -59,6 +63,6 @@ Difficulty levels perhaps this can be acheived by including characters that are 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4Mjg4MDM0NSwxMDk5NTI1ODE1LDEzMj
+eyJoaXN0b3J5IjpbLTcyMDM1NDM1MSwxMDk5NTI1ODE1LDEzMj
 I5NTU4MDgsODg1MTU5NzQyLDczMDk5ODExNl19
 -->
