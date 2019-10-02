@@ -30,8 +30,10 @@ To play a game that is visually appealing. Easy to navigate and provides clear i
 
  - List item
 **Wireframes**
-![wireframe for Super Scholar](https://res.cloudinary.com/blueag8/image/upload/v1567947477/Babyappytite/wireframe_for_babyappytite_xvntx4.jpg)
+![wireframe for Super Scholar](https://res.cloudinary.com/blueag8/image/upload/v1570046738/Super%20Scholar/Desktop_Mockup_s93syp.png)
 
+![wireframe for Super Scholar](https://res.cloudinary.com/blueag8/image/upload/v1570046738/Super%20Scholar/Desktop_Mockup_s93syp.png)
+Smartphone_Mockup_hqr6jo
 **Features** 
 Help/Instructions 
 Score
@@ -50,6 +52,6 @@ Difficulty levels perhaps this can be acheived by including characters that are 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMjk1NTgwOCw4ODUxNTk3NDIsNzMwOT
-k4MTE2XX0=
+eyJoaXN0b3J5IjpbLTEzNzk3MjQwODQsMTMyMjk1NTgwOCw4OD
+UxNTk3NDIsNzMwOTk4MTE2XX0=
 -->
