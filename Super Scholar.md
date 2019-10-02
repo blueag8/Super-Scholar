@@ -84,7 +84,8 @@ Github
 
 [https://www.kaggle.com/fivethirtyeight/fivethirtyeight-comic-characters-dataset/version/107](https://www.kaggle.com/fivethirtyeight/fivethirtyeight-comic-characters-dataset/version/107)
 
-Wireframes produced using ba[https://balsamiq.com/](https://balsamiq.com/)
+Wireframes produced using balsamiq wireframes
+[https://balsamiq.com/](https://balsamiq.com/)
 ## References
 
 [https://www.taniarascia.com/how-to-create-a-memory-game-super-mario-with-plain-javascript/](https://www.taniarascia.com/how-to-create-a-memory-game-super-mario-with-plain-javascript/)
@@ -92,6 +93,6 @@ Wireframes produced using ba[https://balsamiq.com/](https://balsamiq.com/)
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MTA5MjY2MCwxMDk5NTI1ODE1LDEzMj
-I5NTU4MDgsODg1MTU5NzQyLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTE2NTU1NTUxNzQsMTA5OTUyNTgxNSwxMz
+IyOTU1ODA4LDg4NTE1OTc0Miw3MzA5OTgxMTZdfQ==
 -->
