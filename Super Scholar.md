@@ -28,6 +28,10 @@ To play a game that is visually appealing. Easy to navigate and provides clear i
 
 **The Plan**
 
+Main Page
+Display Card 
+Help Modal pops up with Instructions on How to play
+Play Button
 
 
 
@@ -56,6 +60,6 @@ Difficulty levels perhaps this can be acheived by including characters that are 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5OTUyNTgxNSwxMzIyOTU1ODA4LDg4NT
-E1OTc0Miw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTEwMTA2NDI4MTcsMTA5OTUyNTgxNSwxMz
+IyOTU1ODA4LDg4NTE1OTc0Miw3MzA5OTgxMTZdfQ==
 -->
