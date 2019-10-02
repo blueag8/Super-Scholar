@@ -30,8 +30,8 @@ To play a game that is visually appealing. Easy to navigate and provides clear i
 
 *Main Page*
 Display Card 
-Help Modal 
-
+Help Modal with pop up
+Play button with function Get Data 
 
 
 
@@ -59,6 +59,6 @@ Difficulty levels perhaps this can be acheived by including characters that are 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NTk4NzUxNSwxMDk5NTI1ODE1LDEzMj
+eyJoaXN0b3J5IjpbLTU4Mjg4MDM0NSwxMDk5NTI1ODE1LDEzMj
 I5NTU4MDgsODg1MTU5NzQyLDczMDk5ODExNl19
 -->
