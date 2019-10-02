@@ -31,6 +31,7 @@ To play a game that is visually appealing. Easy to navigate and provides clear i
  - List item
 **Wireframes**
 
+    enter code here
 
 **Features** 
 Help/Instructions 
@@ -50,5 +51,6 @@ Difficulty levels perhaps this can be acheived by including characters that are 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg1MTU5NzQyLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTU2MTEyNjU1LDg4NTE1OTc0Miw3MzA5OT
+gxMTZdfQ==
 -->
