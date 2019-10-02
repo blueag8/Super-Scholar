@@ -29,6 +29,8 @@ To play a game that is visually appealing. Easy to navigate and provides clear i
 **The Plan**
 
  - List item
+**Wireframes**
+
 
 **Features** 
 Help/Instructions 
@@ -48,5 +50,5 @@ Difficulty levels perhaps this can be acheived by including characters that are 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MTMzODQ4MSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbODg1MTU5NzQyLDczMDk5ODExNl19
 -->
