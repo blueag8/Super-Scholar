@@ -28,12 +28,16 @@ To play a game that is visually appealing. Easy to navigate and provides clear i
 
 **The Plan**
 
- - List item
+
+
+
+
+
 **Wireframes**
 ![wireframe for Super Scholar](https://res.cloudinary.com/blueag8/image/upload/v1570046738/Super%20Scholar/Desktop_Mockup_s93syp.png)
 
-![wireframe for Super Scholar](https://res.cloudinary.com/blueag8/image/upload/v1570046738/Super%20Scholar/Desktop_Mockup_s93syp.png)
-Smartphone_Mockup_hqr6jo
+![wireframe for Super Scholar](https://res.cloudinary.com/blueag8/image/upload/v1570046738/Super%20Scholar/Smartphone_Mockup_hqr6jo)
+
 **Features** 
 Help/Instructions 
 Score
@@ -52,6 +56,6 @@ Difficulty levels perhaps this can be acheived by including characters that are 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzk3MjQwODQsMTMyMjk1NTgwOCw4OD
-UxNTk3NDIsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTA5OTUyNTgxNSwxMzIyOTU1ODA4LDg4NT
+E1OTc0Miw3MzA5OTgxMTZdfQ==
 -->
