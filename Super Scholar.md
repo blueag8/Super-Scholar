@@ -44,12 +44,14 @@ Game Over Modal
 	
 Functionality 
 	Help Modal Pop Up on Click
-	Play Button-Onclick load data 
+	Play Button-Onclick load data (20 max )
     Randomise Character selections 
 	Click left if Character is Marval
 	Click Right if Character is DC
 	If Selection is correct append 10+ score
-	Flas 
+	If correct card flash blue
+	If wrong card flash red
+	o
 
 
 
@@ -77,6 +79,6 @@ Difficulty levels perhaps this can be acheived by including characters that are 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5NTU1MDY1NCwxMDk5NTI1ODE1LDEzMj
-I5NTU4MDgsODg1MTU5NzQyLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTEyMzA0MTI5NzgsMTA5OTUyNTgxNSwxMz
+IyOTU1ODA4LDg4NTE1OTc0Miw3MzA5OTgxMTZdfQ==
 -->
