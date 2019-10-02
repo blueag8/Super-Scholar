@@ -13,13 +13,13 @@ Technologies used for this project include
 -CSS
 -Javascript
 
-The goal is to create a front-end web application that has interactive functionality,
+The goal is to create a front-end web application that has interactive functionality and "Use[s] JavaScript to have the site produce relevant responses dependent on users' actions".
 
+## External Users Goals
 
-he Idea
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNzgwNjM0MCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTEwNzcwMDA5NTksNzMwOTk4MTE2XX0=
 -->
