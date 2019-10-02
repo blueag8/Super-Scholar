@@ -31,16 +31,22 @@ To play a game that is visually appealing. Easy to navigate and provides clear i
 *Main Page*
 HTML/CSS
 Display Card 
+	Image
+	Name
 Help Modal with pop up
 Play button 
 Left Button (Marvel)
-Right Button DC
-Score
+Right Button (DC)
+Score (10 point increments)
 Game Over Modal
 	Scoreboard
 	Play again button
 	
 Functionality 
+
+Play Button-Onclick load data random 
+Click left if Character is Marval
+Click Right if Character is DC
 
 
 
@@ -68,6 +74,6 @@ Difficulty levels perhaps this can be acheived by including characters that are 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzEwOTY2NTQsMTA5OTUyNTgxNSwxMz
-IyOTU1ODA4LDg4NTE1OTc0Miw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbODUzOTIzOTc3LDEwOTk1MjU4MTUsMTMyMj
+k1NTgwOCw4ODUxNTk3NDIsNzMwOTk4MTE2XX0=
 -->
