@@ -26,7 +26,14 @@ To have fun playing the game and build a game other's emjoy playing.
 **Users Expectations**
 To play a game that is visually appealing. Easy to navigate and provides clear instructions on how to play. As a player I want to know how I am progressing so I would like feedback such as a scoreboard.
 
-Features 
+**Features** 
+Help/Instructions 
+Score
+Time Limit
+Scoreboard
+
+**Future Features to Implement**
+Difficulty levels perhaps this can be acheived by including characters 
 
 
 
@@ -37,5 +44,5 @@ Features
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTU2NDA1OTEsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTEyMzY2MjY5NDEsNzMwOTk4MTE2XX0=
 -->
