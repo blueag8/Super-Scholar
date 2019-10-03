@@ -1,0 +1,12 @@
+body {
+     background: linear-gradient(to bottom, #ff0000 0%, #800000 100%);
+}
+
+.card{
+    width: 18rem;
+    background-color: white;
+
+}
+.score{
+    background-color: white;
+}
