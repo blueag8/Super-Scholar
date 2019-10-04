@@ -12,30 +12,74 @@
 </head>
 <body>
     <div class="container-fluid">
-        <button class=".btn"><i class="fa-question-circle"></i></button>
+      <button type="button" class="btn btn-primary" data-target="#helpModal" data-toggle="tooltip" title="How to play"> <i class="fa fa-gears fa-2x" style="color:Black;"></i></button>
     </div>
 
     <div class="container-fluid">
-     <div class="title"><a href="https://cooltext.com"><img src="https://images.cooltext.com/5332968.png" width="560" height="115" alt="Super Scholar" /></a>
+     <div class="text-center"><a href="https://cooltext.com"><img src="https://images.cooltext.com/5332968.png" width="560" height="115" alt="Super Scholar" /></a>
 <br />Image by <a href="https://cooltext.com">Cool Text: Logo and Button Generator</a> - <a href="https://cooltext.com/Edit-Logo?LogoID=3374207878">Create Your Own Logo</a></div>
     </div>
 
-    <div class="container-fluid">
-        <div class="game">
-           <div class="card">
-                <img class="card-img-top" src="img/Hulk_(comics_character).png" alt="Card image cap"></img>
-         <div class="card-body">
-            <p class="card-text">Hulk</p>
-         </div>
-    </div>
+     <div class="game">
+        <div class="container-fluid">
+           <div class="row">
+           <div class="col-md-12">
+                <div class="card">
+                      <div class="card-body">
+                         <div class ="col-md-4 offset-md-6">
+                        <img src="img/Hulk_(comics_character).png" class="img-fluid" alt="Responsive image" alt="Card image cap"></img>
+                     <p class="card-text">Hulk</p>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+           </div>
 
-    <div class="controls">
+        <div class="row">
+             <div class="col">
+                <button class="DC .btn"><img src="img/DC_Comics-logo-24DD4E86A6-seeklogo.com.png" alt="dc-logo"></img></button>
+              </div>
+             <div class= "col">
+              <button class="marvel .btn"><img src="img/Marvel_Comics-logo-D489AEB9C1-seeklogo.com.png" alt="marvel-logo"></img></button>
+             </div>
+        </div>
+
+<div class="controls">
     <div class="container-fluid">
-        <button class="btn">Play</button>
-  </div>
+      <div class="col">
+        <button class="btn"><i class="fa fa-play"></i></button>
+      </div>
+    </div>
+</div>
 
   <div class="container-fluid">
     <div class="score">1000</div>
+
+</div>
+<!-- The Modal -->
+  <div class="modal fade" id="helpModal">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">How to Play</h4>
+          <button type="button" class="close" data-dismiss="modal">×</button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+
+        </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
 
 </div>
 

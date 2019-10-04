@@ -3,10 +3,15 @@ body {
 }
 
 .card{
+    height: 25rem;
     width: 18rem;
     background-color: white;
+    background-size:contain;
+    background-position: center center;
+
 
 }
 .score{
     background-color: white;
+    background-size: contain;
 }
