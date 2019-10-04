@@ -49,3 +49,19 @@ img.marvel-logo {
     background-size: contain;
     padding: 2em;
 }
+
+
+.modal-content {
+    background-color: blue;
+    text-align: center;
+    padding:1em;
+    font-weight: 400;
+}
+
+.modal-body{
+    margin: 1em;
+    background-color:cornflowerblue;
+    border: black;
+    text-align: center;
+
+}

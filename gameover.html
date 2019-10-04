@@ -1,3 +1,9 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<section>
 <!-- The Modal -->
   <div class="modal fade" id="gameOverModal">
     <div class="modal-dialog modal-lg">
@@ -6,19 +12,41 @@
         <!-- Modal Header -->
         <div class="modal-header">
           <h4 class="modal-title">GAME OVER</h4>
-          <button type="button" class="close" data-dismiss="modal">×</button>
         </div>
 
         <!-- Modal body -->
-        <div class="modal-body">
-        <div class="Scoreboard"><table></table>
-        </div>
+    <div class="modal-body">
+     <div class="Score" >
+         <table id="scoreboard" style="overflow-x:auto;">
+    <tr>
+      <th>Player</th>
+      <th>Name</th>
+      <th>Score</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Smith</td>
+      <td>200</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Jackson</td>
+      <td>90</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Johnson</td>
+      <td>50</td>
+    </tr>
+  </table>
+ </div>
+</div>
 
         <!-- Modal footer -->
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Exit</button>
 
           <button type="button" class="btn btn-replay" data-dismiss="modal">Play again?</button>
+           <button type="button" class="btn btn-secondary" data-dismiss="modal">Exit</button>
         </div>
 
 
@@ -27,3 +55,5 @@
   </div>
 
 </div>
+</section>
+</html>
