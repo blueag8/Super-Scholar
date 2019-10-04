@@ -12,7 +12,7 @@
 </head>
 <body>
     <div class="container-fluid">
-      <button type="button" class="btn btn-primary" data-target="#helpModal" data-toggle="tooltip" title="How to play"> <i class="fa fa-gears fa-2x" style="color:Black;"></i></button>
+      <button type="button" class="btn btn-primary" id="helpBtn" data-target="#helpModal" data-toggle="tooltip" title="How to play"> <i class="fa fa-gears fa-2x" style="color:Black;"></i></button>
     </div>
 
     <div class="container-fluid">
@@ -79,7 +79,9 @@
 
         <!-- Modal body -->
         <div class="modal-body">
-
+        <p class="instructions">Do you know your SuperHeros/Villains?<br> Are they from DC comics or Marvel Comics? Test your knowledge to see if you are a Super Scholar<br>Controls<br>
+        Click or swipe left if you think the character is DC<br>Click right or swipe right for Marvel<br>
+        For each correct answer gain 10 Scholar Points<br>Get as many as you can within the 30 second timer</p>
         </div>
 
         <!-- Modal footer -->
@@ -95,6 +97,12 @@
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
+<script>
+$(document).ready(function(){
+  $("#helpBtn").click(function(){
+    $("#helpModal").modal();
+  });
+});
+</script>
 </body>
 </html>
