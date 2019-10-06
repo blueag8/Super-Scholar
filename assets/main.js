@@ -1,4 +1,13 @@
 const baseURL = "https://swapi.co/api/";
+const game= document.getElementById("game");
+
+const card=document.getElementById("card");
+
+game.appendChild(card);
+
+gameCard.forEach(item =>{
+const {name, image, publisher} = item;
+
 
 function getData(type, cb) {
     var xhr = new XMLHttpRequest();
@@ -13,6 +22,7 @@ function getData(type, cb) {
     xhr.send();
 }
 
+
 function playGame(type) {
     var el = document.getElementById("cardData");
     el.innerHTML = "";
@@ -22,6 +32,5 @@ function playGame(type) {
 
         data.forEach(function(item) {
             el.innerHTML += "<p>" + item.name + "</p>";
-        });
-    });
-}
+         }
+});
