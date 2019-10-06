@@ -5,6 +5,11 @@ body {
    margin:2em;
 }
 
+timer {
+    background-color: white;
+    width: fit-content;
+    height: 2em;
+}
 .card{
     background-color: whitesmoke;
     background-size: contain;
