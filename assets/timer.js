@@ -1,13 +1,13 @@
 var game=
 
-//add event listners
-document.getElementById("playBtn").addEventListener("click", startGame);
+document.getElementById("playBtn");
 
+//add event listners
 game.addEventListener("click", startTimer);
 game.addEventListener("click", score);
 game.addEventListener("click", getData)
 
-function startGame(){
+function startTimer(){
   var secs= 30;
   var clock= document.getElementById("timer");
 
@@ -18,7 +18,7 @@ function startGame(){
 
          if (secs == 0) {
             clearTimeout(timerId);
-            alert ("gameOver");
+            $('#gameOver').modal('show');
 
          }
 
@@ -32,4 +32,33 @@ function startGame(){
          }
 
      }
+}
+var Hero={
+    //test//
+    // name:"Henry(test)",
+    // publisher:"Ford(test)"
+    name:"Hulk",
+    publisher: "Marvel"
+    };
+
+gameCard= Hero.name + " " ;//+ Hero.publisher;//
+
+
+
+function getData(){
+
+document.getElementById("cardData").innerHTML=gameCard;
+}
+
+//marvel and dc assign button functions
+var Marvel=document.getElementById("btn-marvel");
+Marvel.addEventListener("click", getScore);
+
+var DC= document.getElementById("btn-dc");
+DC.addEventListener("click", getScore);
+
+function getScore(){
+
+
+
 }

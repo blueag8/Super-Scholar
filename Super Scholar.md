@@ -30,30 +30,30 @@ To play a visually appealing game. Easy to navigate and provides clear instructi
 
 *Main Page*
 HTML/CSS
-Display Card 
+Display Card
 	Image
 	Name
 Help Modal with pop up
-Play button 
+Play button
 Left Button (Marvel)
 Right Button (DC)
 Score (10 point increments)
 Game Over Modal
 	Scoreboard
 	Play again button
-	
-Functionality 
+
+Functionality
 	Help Modal Pop Up on Click
 	Play Button-Onclick load data (20 max )
-    Randomise Character selections 
+    Randomise Character selections
 	Click left if Character is Marval
 	Click Right if Character is DC
 	If Selection is correct append 10+ score
 	If correct card flash blue
 	If wrong card flash red
-	GameOver Modal triggered on last  			
+	GameOver Modal triggered on last
 	response for card 20
-	Load Score board 
+	Load Score board
 	UserInput function for Name
     append score to name
     append name and score to                                                                            scoreboard/game over modal
@@ -64,8 +64,8 @@ Functionality
 
 ![wireframe for Super Scholar](https://res.cloudinary.com/blueag8/image/upload/v1570046738/Super%20Scholar/Smartphone_Mockup_hqr6jo)
 
-**Features** 
-Help/Instructions 
+**Features**
+Help/Instructions
 Score
 Time Limit
 Scoreboard
@@ -74,7 +74,7 @@ Scoreboard
 Difficulty levels perhaps this can be achieved by including characters that are least known or grouped by popularity.
 
 **Version control**
-Github 
+Github
 
 **Testing**
 **Deployment**
@@ -95,7 +95,8 @@ Slack- Code Institute
 
 ## References
 
-[https://www.taniarascia.com/how-to-create-a-memory-game-super-mario-with-plain-javascript/](https://www.taniarascia.com/how-to-create-a-memory-game-super-mario-with-plain-javascript/)
+https://github.com/taniarascia/memory/blob/master/js/script.original.JavaScript
+https://www.taniarascia.com/how-to-create-a-memory-game-super-mario-with-plain-javascript/](https://www.taniarascia.com/how-to-create-a-memory-game-super-mario-with-plain-javascript/)
 
 https://www.w3schools.com
 > Written with [StackEdit](https://stackedit.io/).

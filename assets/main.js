@@ -1,36 +1,21 @@
-const baseURL = "https://swapi.co/api/";
-const game= document.getElementById("game");
 
-const card=document.getElementById("card");
-
-game.appendChild(card);
-
-gameCard.forEach(item =>{
-const {name, image, publisher} = item;
-
-
-function getData(type, cb) {
-    var xhr = new XMLHttpRequest();
-
-    xhr.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
-            cb(JSON.parse(this.responseText));
-        }
+var Hero={
+     name:"Henry(test)",
+     publisher:"Ford(test)"
     };
 
-    xhr.open("GET", baseURL + type + "/");
-    xhr.send();
+gameCard= Hero.name + " " + Hero.publisher;
+
+
+
+function getData(){
+
+document.getElementById("cardData").innerHTML=gameCard;
+
 }
+getData();
 
+<input type="button" name="Hero${HeroName}" value="${publisher}">
+            ${publisher} :
+            ${currentHero.currentPublisher[publisher]}
 
-function playGame(type) {
-    var el = document.getElementById("cardData");
-    el.innerHTML = "";
-
-    getData(type, function(data) {
-        data = data.results;
-
-        data.forEach(function(item) {
-            el.innerHTML += "<p>" + item.name + "</p>";
-         }
-});
