@@ -4,8 +4,8 @@ document.getElementById("playBtn");
 
 //add event listners
 game.addEventListener("click", startTimer);
-game.addEventListener("click", score);
-game.addEventListener("click", getData)
+game.addEventListener("click", getScore);
+game.addEventListener("click", getData);
 
 function startTimer(){
   var secs= 30;
@@ -30,10 +30,10 @@ function startTimer(){
             timer.style.color="red";
 
          }
-
+game.Clock;
      }
 }
-var Hero={
+const Hero={
     //test//
     // name:"Henry(test)",
     // publisher:"Ford(test)"
@@ -41,9 +41,12 @@ var Hero={
     publisher: "Marvel"
     };
 
-gameCard= Hero.name + " " ;//+ Hero.publisher;//
+const name= Hero.name;
+const publisher=Hero.publisher;
 
+const gameCard= name + publisher;
 
+game.gameCard;
 
 function getData(){
 
@@ -51,9 +54,16 @@ document.getElementById("cardData").innerHTML=gameCard;
 }
 
 //marvel and dc assign button functions
-publisher.addEventListener("onclick", result);
+publisher.addEventListener("onclick", getScore);
 publisher=document.getElementById("publisher").value;
 
-function result(){
+function getScore(){
 
-        alert(event.target.value) ;  }
+var publisher=event.target.value;
+var gameCard=document.getElementById("cardData").innerHTML;
+
+
+
+console.log(gameCard[4]===publisher[0]);
+
+}
