@@ -61,9 +61,17 @@ function getScore(){
 
 var publisher=event.target.value;
 var gameCard=document.getElementById("cardData").innerHTML;
+var scoreBoard=document.getElementById("scoreBoard");
+let score= 0;
+
+
+if (gameCard[4]===publisher[0]){
+   score ++ ;
+
+}
+scoreBoard.innerHTML=score + "score";
 
 
 
-console.log(gameCard[4]===publisher[0]);
-
+console.log(score)
 }
