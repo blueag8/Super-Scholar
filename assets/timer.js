@@ -51,14 +51,9 @@ document.getElementById("cardData").innerHTML=gameCard;
 }
 
 //marvel and dc assign button functions
-var Marvel=document.getElementById("btn-marvel");
-Marvel.addEventListener("click", getScore);
+publisher.addEventListener("onclick", result);
+publisher=document.getElementById("publisher").value;
 
-var DC= document.getElementById("btn-dc");
-DC.addEventListener("click", getScore);
+function result(){
 
-function getScore(){
-
-
-
-}
+        alert(event.target.value) ;  }
