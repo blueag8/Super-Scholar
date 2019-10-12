@@ -30,28 +30,42 @@ function startTimer(){
             timer.style.color="red";
 
          }
-game.Clock;
+
      }
 }
-const Hero={
+function getData(){
+
+const hero=[{
     //test//
     // name:"Henry(test)",
     // publisher:"Ford(test)"
     name:"Hulk",
     publisher: "Marvel"
-    };
+},
+{
+    name:"Superman",
+    publisher:"Dc"
+}];
 
-const name= Hero.name;
-const publisher=Hero.publisher;
+const keys = Object.keys(hero);
+const randomIndex = keys[Math.floor(Math.random() * keys.length)];
+const item = hero[randomIndex];
 
-const gameCard= name + publisher;
+
+gameCard=document.getElementById("cardData").innerHTML=item.name + item.publisher;
+
+
+
+
+
+//const random =Math.floor(Math.random() * hero.length);
+//gameCard= hero[random];
+
 
 game.gameCard;
 
-function getData(){
-
-document.getElementById("cardData").innerHTML=gameCard;
 }
+
 
 //marvel and dc assign button functions
 publisher.addEventListener("onclick", getScore);
@@ -69,9 +83,10 @@ if (gameCard[4]===publisher[0]){
    score ++ ;
 
 }
-scoreBoard.innerHTML=score + "score";
-
-
+game.score +=1;
+scoreBoard.innerText=game.score;
 
 console.log(score)
 }
+
+

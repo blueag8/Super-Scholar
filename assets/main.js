@@ -5,6 +5,9 @@ var Hero={
     };
 
 gameCard= Hero.name + " " + Hero.publisher;
+const keys=Object.keys(hero);
+const randomCard=keys[Math.floor(Math.random()*keys.length)];
+const item=hero(randomCard);
 
 
 
