@@ -45,21 +45,50 @@ const hero=[{
 {
     name:"Superman",
     publisher:"Dc"
+},
+{
+    name:"Ironman",
+    publisher:"Marvel"
+},
+{
+    name:"Thor",
+    publisher:"Marvel"
+},
+{
+    name:"Batman",
+    publisher:"DC"
+},
+{
+    name:"Catwoman",
+    publisher:"DC"
+},
+{
+    name:"Captain America",
+    publisher:"Marvel"
+},
+{
+    name:"The Joker",
+    publisher:"DC"
+},
+{
+    name:"Wolverine",
+    publisher:"Marvel"
+},
+{
+    name:"Storm",
+    publisher:"Marvel"
 }];
 
 const keys = Object.keys(hero);
 const randomIndex = keys[Math.floor(Math.random() * keys.length)];
 const item = hero[randomIndex];
 
+card=document.getElementById("cardData").innerHTML=item.name;
 
-gameCard=document.getElementById("cardData").innerHTML=item.name + item.publisher;
+publisher=document.getElementById("publisher").innerHTML=item.publisher;
 
+gamecard= card + publisher;
 
-
-
-
-//const random =Math.floor(Math.random() * hero.length);
-//gameCard= hero[random];
 
 
 game.gameCard;
@@ -74,19 +103,22 @@ publisher=document.getElementById("publisher").value;
 function getScore(){
 
 var publisher=event.target.value;
-var gameCard=document.getElementById("cardData").innerHTML;
+var gameCard=document.getElementById("publisher").innerHTML;
 var scoreBoard=document.getElementById("scoreBoard");
+
+
 let score= 0;
 
+if(publisher===gameCard){
 
-if (gameCard[4]===publisher[0]){
-   score ++ ;
+score ++ ;
+scoreBoard.innerHTML= score;
 
+document.getElementById("card").style.backgroundColor="green";
+    console.log("correct");
 }
-game.score +=1;
-scoreBoard.innerText=game.score;
-
-console.log(score)
+else{
+document.getElementById("card").style.backgroundColor="red";
+    console.log("wrong");
 }
-
-
+}

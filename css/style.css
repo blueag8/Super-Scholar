@@ -15,8 +15,9 @@ timer {
     background-size: contain;
 
 }
-
-
+div#publisher {
+    visibility: hidden;
+}
 p.card-text {
     text-align: center;
 }
