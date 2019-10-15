@@ -1,7 +1,9 @@
 var game=
 
 document.getElementById("playBtn");
+publisher=document.getElementById("publisher");
 
+game.publisher;
 //add event listners
 game.addEventListener("click", startTimer);
 game.addEventListener("click", getScore);
@@ -17,7 +19,7 @@ function startTimer(){
 
 
          if (secs == 0) {
-            clearTimeout(timerId);
+            clearInterval(timerId);
             $('#gameOver').modal('show');
 
          }
@@ -95,21 +97,16 @@ game.gameCard;
 
 }
 
-
-//marvel and dc assign button functions
-publisher.addEventListener("onclick", getScore);
-publisher=document.getElementById("publisher").value;
-
 function getScore(){
 
 var publisher=event.target.value;
-var gameCard=document.getElementById("publisher").innerHTML;
+var gamecard=document.getElementById("publisher").innerHTML;
 var scoreBoard=document.getElementById("scoreBoard");
 
 
 let score= 0;
 
-if(publisher===gameCard){
+if(publisher===gamecard){
 
 score ++ ;
 scoreBoard.innerHTML= score;
@@ -121,4 +118,5 @@ else{
 document.getElementById("card").style.backgroundColor="red";
     console.log("wrong");
 }
+console.log(event.target);
 }
