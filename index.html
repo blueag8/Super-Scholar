@@ -35,8 +35,9 @@
               <div id="cardData"></div>
               <div id="publisher"></div>
 
-                <div class="card-body">
-                    <img class="img-responsive" src="img/Hulk_(comics_character).png"  alt="card-character-img"></img>
+
+                <div id="card-body">
+                <img id="img"></img>
 
                 </div>
              </div>
@@ -98,7 +99,7 @@
 
 </div>
 <!-- The Modal -->
-  <div class="modal fade" id="gameOver">
+  <div class="modal fade" id="LeaderBoard">
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
 
@@ -110,7 +111,7 @@
         <!-- Modal body -->
     <div class="modal-body">
      <div class="Score" >
-         <table id="scoreboard" style="overflow-x:auto;">
+         <table id="scoreBoard" style="overflow-x:auto;">
     <tr>
       <th>Player</th>
       <th>Name</th>
@@ -118,18 +119,18 @@
     </tr>
     <tr>
       <td>1</td>
-      <td>Smith</td>
-      <td>200</td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
       <td>2</td>
-      <td>Jackson</td>
-      <td>90</td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
       <td>3</td>
-      <td>Johnson</td>
-      <td>50</td>
+      <td></td>
+      <td></td>
     </tr>
   </table>
  </div>
@@ -147,6 +148,38 @@
     </div>
   </div>
 
+<!-- The Modal -->
+  <div class="modal fade" id="gameOver">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">GAME OVER</h4>
+        </div>
+
+        <!-- Modal body -->
+    <div class="modal-body">
+     <div id="finalScore" ></div>
+     <form>
+  <div class="form-row">
+    <div class="col">
+      <input type="text" class="form-control" placeholder="player name">
+    </div>
+  </div>
+</form>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+
+        <button type="submit" data-toggle="modal" data-target="#LeaderBoard" data-dismiss="modal">Submit</button>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
 </div>
     <script src="assets/timer.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
@@ -156,8 +189,6 @@ $(document).ready(function(){
   $("#helpBtn").click(function(){
     $("#helpModal").modal();
   });
-
-
 });
 
 </script>

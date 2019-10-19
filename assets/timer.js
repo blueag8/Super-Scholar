@@ -42,43 +42,54 @@ const hero=[{
     // name:"Henry(test)",
     // publisher:"Ford(test)"
     name:"Hulk",
-    publisher: "Marvel"
+    publisher: "Marvel",
+    img:"img/Hulk_(comics_character).png"
 },
 {
     name:"Superman",
-    publisher:"Dc"
+    publisher:"DC",
+    img:"img/Superman.jpg"
 },
 {
-    name:"Ironman",
-    publisher:"Marvel"
+    name:"Iron Man",
+    publisher:"Marvel",
+    img:"img/Iron_Man.png"
 },
 {
     name:"Thor",
-    publisher:"Marvel"
+    publisher:"Marvel",
+    img:"img/Thor.png"
 },
 {
     name:"Batman",
-    publisher:"DC"
+    publisher:"DC",
+    img:"img/Batman.jpeg"
 },
 {
     name:"Catwoman",
-    publisher:"DC"
+    publisher:"DC",
+    img:"img/catwoman.jpg"
 },
 {
     name:"Captain America",
-    publisher:"Marvel"
+    publisher:"Marvel",
+    img:"img/Captain_America.jpg"
+
 },
 {
     name:"The Joker",
-    publisher:"DC"
+    publisher:"DC",
+    img:"img/Joker.jpg"
 },
 {
     name:"Wolverine",
-    publisher:"Marvel"
+    publisher:"Marvel",
+    img:"img/wolverine.jpg"
 },
 {
     name:"Storm",
-    publisher:"Marvel"
+    publisher:"Marvel",
+    img:"img/Storm.jpg"
 }];
 
 const keys = Object.keys(hero);
@@ -89,27 +100,25 @@ card=document.getElementById("cardData").innerHTML=item.name;
 
 publisher=document.getElementById("publisher").innerHTML=item.publisher;
 
-gamecard= card + publisher;
+img=document.getElementById("img").src=item.img;
 
 
-
+gamecard= card + publisher + img;
 game.gameCard;
 
 }
 
 function getScore(){
-
+var score=0;
 var publisher=event.target.value;
 var gamecard=document.getElementById("publisher").innerHTML;
 var scoreBoard=document.getElementById("scoreBoard");
 
 
-let score= 0;
-
-if(publisher===gamecard){
+if(publisher==gamecard){
 
 score ++ ;
-scoreBoard.innerHTML= score;
+scoreBoard.innerHTML= score + score;
 
 document.getElementById("card").style.backgroundColor="green";
     console.log("correct");
@@ -118,5 +127,5 @@ else{
 document.getElementById("card").style.backgroundColor="red";
     console.log("wrong");
 }
-console.log(event.target);
+console.log(gamecard, publisher, score);
 }
