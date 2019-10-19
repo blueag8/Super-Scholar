@@ -118,7 +118,8 @@ var scoreBoard=document.getElementById("scoreBoard");
 if(publisher==gamecard){
 
 score ++ ;
-scoreBoard.innerHTML= score + score;
+scoreBoard.value= score;
+score=score;
 
 document.getElementById("card").style.backgroundColor="green";
     console.log("correct");
@@ -129,3 +130,16 @@ document.getElementById("card").style.backgroundColor="red";
 }
 console.log(gamecard, publisher, score);
 }
+
+
+function leaderBoard() {
+  var player= document.getElementById("playerName").value;
+  document.getElementById("player").innerHTML = player;
+
+  var score=document.getElementById("scoreBoard").value;
+  document.getElementById("score").innerHTML= score;
+
+  console.log(scoreBoard)
+
+}
+
