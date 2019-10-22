@@ -25,52 +25,36 @@
  </div>
 
 
-    <div class="container-fluid">
-      <div id="game">
-        <div class="row">
-           <div class="col-sm-4 col-sm-offset-4">
-             <div id="card">
+  <section id="game">
+     <div class="container-fluid">
+    <div class="row">
+       <span class="col-sm-4"id="scoreBoard"></span>
+         <span class="col-sm-4"id="timer"></span>
+         </div>
+      </div>
 
-              <div id="timer"></div>
               <div id="cardData"></div>
               <div id="publisher"></div>
 
-
-                <div id="card-body">
-                <img id="img"></img>
-
-                </div>
-             </div>
-           </div>
-        </div>
         <div class="row">
-            <div class="col-sm-2 col-sm-offset-4">
-
-            <input type="submit" onclick="getData(), getScore()" value="DC" id="publisher" for="DC">
-
-            <input type="submit" onclick="getData(), getScore()" value="Marvel" id="publisher" for="Marvel">
+            <button class="col-sm-4" type="submit" onclick="getData(), getScore()" value="DC" id="publisher" for="DC"><img src="img/DC_logo.png"></button>
+        <div class="col-sm-4">
+          <img class="hero-img" id="hero" src="img/default.jpg">
+          </div>
+            <button class="col-sm-4" type="submit" onclick="getData(), getScore()" value="Marvel" id="publisher" for="Marvel"><img src="img/Marvel_logo.png"></button>
           </div>
          </div>
        </div>
-    </div>
-</div>
 
-<div class="container-fluid">
       <div class="row">
-      <div class="col-sm-offset-6">
+      <div class="col-sm-4 col-sm-offset-4">
         <button id="playBtn"><i class="fa fa-play"></i></button>
       </div>
     </div>
-  </div>
-  </div>
-
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-sm-4 col-sm-offset-4">
-        <div id="scoreBoard"></div>
-      </div>
-    </div>
 </div>
+</section>
+
+
 <!-- The Modal -->
   <div class="modal fade" id="helpModal">
     <div class="modal-dialog modal-lg">
@@ -111,16 +95,16 @@
         <!-- Modal body -->
     <div class="modal-body">
      <div class="Score" >
-         <table id="LeaderBoard" style="overflow-x:auto;">
+         <table  class="table" id="LeaderBoard" style="overflow-x:auto;">
     <tr>
-      <th>Player</th>
-      <th>Name</th>
-      <th>Score</th>
+      <th scope= "col">Ranking</th>
+      <th scope="col">Player</th>
+      <th scope="col">Score</th>
     </tr>
     <tr>
-      <td>1</td>
-      <td id="player"></td>
-      <td id="score"></td>
+      <td scope="row">1</td>
+      <td scope="col" id="player"></td>
+      <td scope="col" id="score"></td>
     </tr>
     <tr>
       <td>2</td>
@@ -190,7 +174,8 @@ $(document).ready(function(){
     $("#helpModal").modal();
   });
 });
-
 </script>
 </body>
 </html>
+
+

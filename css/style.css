@@ -1,56 +1,54 @@
 body {
    background: linear-gradient(to bottom, #ff0000 0%, #800000 100%);
-   background-size: cover;
    background-repeat: no-repeat;
    margin:2em;
 }
 
-timer {
-    background-color: white;
-    width: fit-content;
-    height: 2em;
+span#scoreBoard {
+    border-radius: 1em;
+    font-size: 1em;
+    padding: 1em;
+    margin:5em;
+    border-color: black;
 }
-.card{
-    background-color: whitesmoke;
-    background-size: contain;
+span#timer {
+    border-radius: 1em;
+    font-size: 1em;
+    padding: 1em;
+    margin:5em;
+    border-color: black;
+}
 
+#cardData{
+    visibility: hidden;
 }
+
 div#publisher {
     visibility: hidden;
 }
-p.card-text {
-    text-align: center;
-}
 
-img {
-    vertical-align: middle;
-    width: 25em;
-    height: auto;
-}
-
-img.dc-logo {
-    height: 5em;
+button#publisher {
+    background-color: transparent;
+    border: none;
     width: auto;
 }
-
-img.marvel-logo {
-    height: 5em;
-    width:auto;
+img {
+    height: 8em;
 }
 
-.play {
-    padding: 2em;
-}
+.hero-img{
+    height: 25em;
+    }
 
-.game{
-    padding:2em;
+p.card-text {
+    text-align: center;
 }
 
 .btn-primary {
     background-color: transparent;
     border-color: transparent;
 }
-.score{
+.scoreBoard{
     background-color: white;
     background-size: contain;
     padding: 2em;

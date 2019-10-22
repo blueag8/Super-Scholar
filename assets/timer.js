@@ -1,7 +1,13 @@
+
+score=0;
+timer=0;
+
 var game=
 
 document.getElementById("playBtn");
-publisher=document.getElementById("publisher");
+publisher1=document.getElementById("publisher1");
+publisher2=document.getElementById("publisher2");
+
 
 game.publisher;
 //add event listners
@@ -27,9 +33,10 @@ function startTimer(){
         else{
          clock.innerHTML= "0:" + secs ;
          secs--;
+         clock.style.backgroundColor="white";
      }
         if (secs < 10){
-            timer.style.color="red";
+            clock.style.color="red";
 
          }
 
@@ -100,7 +107,7 @@ card=document.getElementById("cardData").innerHTML=item.name;
 
 publisher=document.getElementById("publisher").innerHTML=item.publisher;
 
-img=document.getElementById("img").src=item.img;
+img=document.getElementById("hero").src=item.img;
 
 
 gamecard= card + publisher + img;
@@ -109,26 +116,29 @@ game.gameCard;
 }
 
 function getScore(){
-var score=0;
+score=0;
+
 var publisher=event.target.value;
 var gamecard=document.getElementById("publisher").innerHTML;
 var scoreBoard=document.getElementById("scoreBoard");
 
 
-if(publisher==gamecard){
+if(publisher===gamecard){
 
-score ++ ;
-scoreBoard.value= score;
-score=score;
+score +=10 ;
+scoreBoard.innerHTML="Scholar-Points = " + score;
+scoreBoard.style.backgroundColor="white";
+score=score + Score;
 
-document.getElementById("card").style.backgroundColor="green";
+document.getElementById("game").style.backgroundColor="green";
     console.log("correct");
 }
 else{
-document.getElementById("card").style.backgroundColor="red";
+document.getElementById("game").style.backgroundColor="red";
     console.log("wrong");
+    score=score;
 }
-console.log(gamecard, publisher, score);
+console.log(typeof gamecard, gamecard, typeof publisher, publisher, typeof score, score);
 }
 
 
@@ -142,4 +152,3 @@ function leaderBoard() {
   console.log(scoreBoard)
 
 }
-
