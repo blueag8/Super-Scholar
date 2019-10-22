@@ -1,19 +1,19 @@
 
+var game=document.getElementById("playBtn");
+
 score=0;
 timer=0;
+publisher=null;
 
-var game=
-
-document.getElementById("playBtn");
-publisher1=document.getElementById("publisher1");
-publisher2=document.getElementById("publisher2");
-
-
-game.publisher;
 //add event listners
-game.addEventListener("click", startTimer);
-game.addEventListener("click", getScore);
-game.addEventListener("click", getData);
+game.addEventListener("click", startGame);
+
+
+function startGame(){
+   startTimer();
+   getScore();
+   getData();
+   }
 
 function startTimer(){
   var secs= 30;
@@ -39,8 +39,7 @@ function startTimer(){
             clock.style.color="red";
 
          }
-
-     }
+    }
 }
 function getData(){
 
@@ -111,15 +110,14 @@ img=document.getElementById("hero").src=item.img;
 
 
 gamecard= card + publisher + img;
-game.gameCard;
+game.gamecard;
 
 }
 
 function getScore(){
-score=0;
-
-var publisher=event.target.value;
-var gamecard=document.getElementById("publisher").innerHTML;
+publisher=document.getElementById("publishers").value;
+publishers=event.target.value;
+gamecard=document.getElementById("publisher").innerHTML;
 var scoreBoard=document.getElementById("scoreBoard");
 
 
@@ -128,7 +126,7 @@ if(publisher===gamecard){
 score +=10 ;
 scoreBoard.innerHTML="Scholar-Points = " + score;
 scoreBoard.style.backgroundColor="white";
-score=score + Score;
+score=score;
 
 document.getElementById("game").style.backgroundColor="green";
     console.log("correct");
@@ -146,9 +144,9 @@ function leaderBoard() {
   var player= document.getElementById("playerName").value;
   document.getElementById("player").innerHTML = player;
 
-  var score=document.getElementById("scoreBoard").value;
-  document.getElementById("score").innerHTML= score;
+  var score=document.getElementById("scoreBoard").innerHTML;
+  document.getElementById("Score").innerHTML= score;
 
-  console.log(scoreBoard)
+  console.log(typeof score, scoreBoard);
 
 }
