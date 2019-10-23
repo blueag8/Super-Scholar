@@ -19,7 +19,7 @@ function startGame(){
 function startTimer(){
 
 
-  var secs= 5;
+  var secs= 30;
   var clock= document.getElementById("timer");
 
   var timerId=setInterval(countdown, 1000);
