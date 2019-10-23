@@ -13,47 +13,48 @@
 </head>
 <body>
     <div class="container-fluid">
+    <div class="row">
       <button type="button" class="btn btn-primary" id="helpBtn" data-target="#helpModal" data-toggle="tooltip" title="How to play"> <i class="fa fa-gears fa-2x" style="color:Black;"></i></button>
     </div>
+</div>
 
-    <div class="container-fluid">
-     <div class="text-center"><a href="https://cooltext.com">
+<div class="container-fluid">
+    <div class="row">
      <div class="col-sm-4 col-sm-offset-4">
+     <div class="text-center"><a href="https://cooltext.com">
+
         <img class="img-responsive" src="https://images.cooltext.com/5332968.png" alt="Super Scholar" /></a>
 <br />Image by <a href="https://cooltext.com">Cool Text: Logo and Button Generator</a> - <a href="https://cooltext.com/Edit-Logo?LogoID=3374207878">Create Your Own Logo</a></div>
     </div>
  </div>
+ </div>
 
 
-  <section id="game">
-     <div class="container-fluid">
+   <div class="container-fluid">
     <div class="row">
-       <span class="col-sm-4" id="scoreBoard"></span>
-         <span class="col-sm-4"id="timer"></span>
-         </div>
+       <span id="scoreBoard"></span>
+         <span id="timer"></span>
       </div>
 
-      <div class="container-fluid">
-        <div class="row">
-            <button class="col-sm-4" type="submit" onclick="getData(), getScore()" value="DC" id="publishers" for="DC"><img src="img/DC_logo.png"></button>
-             <div class="col-sm-4">
+  <div class="gameboard">
+     <div class="row">
+      <button class="col-sm-4" type="submit" onclick="getData(), getScore()" value="DC" id="publishers" for="DC"><img src="img/DC_logo.png"></button>
+      <button class="col-sm-4 col-sm-offset-4" type="submit" onclick="getData(), getScore()" value="Marvel" id="publishers" for="Marvel"><img src="img/Marvel_logo.png"></button>
+     </div>
+
+ <section id="game" class="col-sm-4 col-sm-offset-4">
               <div id="cardData"></div>
               <div id="publisher"></div>
-              <img class="hero-img" id="hero" src="img/default.jpg">
-              </div>
-             <button class="col-sm-6" type="submit" onclick="getData(), getScore()" value="Marvel" id="publishers" for="Marvel"><img src="img/Marvel_logo.png"></button>
-         </div>
-       </div>
+              <img class="img-responsive" id="hero" src="img/default.jpg">
+  </section>
 
-<div class="container-fluid">
     <div class="row">
-      <div class="col-sm-4 col-sm-offset-4">
+      <div class="col-sm-12 col-sm-offset-6">
         <button id="playBtn"><i class="fa fa-play"></i></button>
       </div>
     </div>
 </div>
 </div>
-</section>
 
 
 <!-- The Modal -->

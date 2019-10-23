@@ -1,21 +1,24 @@
 body {
    background: linear-gradient(to bottom, #ff0000 0%, #800000 100%);
    background-repeat: no-repeat;
-   margin:2em;
+
 }
 
+.row{
+    margin-bottom: 5em;
+}
 span#scoreBoard {
     border-radius: 1em;
     font-size: 1em;
     padding: 1em;
-    margin:5em;
+    margin:2em;
     border-color: black;
 }
 span#timer {
     border-radius: 1em;
     font-size: 1em;
     padding: 1em;
-    margin:5em;
+    margin:2em;
     border-color: black;
 }
 
@@ -30,20 +33,21 @@ div#publisher {
 button#publishers {
     background-color: transparent;
     border: none;
-    width: auto;
+
 }
 img {
-    height: 8em;
+    height: 5em;
 }
 
-.hero-img{
-    height: 25em;
-    width:auto;
+#hero{
+    position:relative;
+    height:30em;
+    width:30em;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding:2em;
     }
-
-p.card-text {
-    text-align: center;
-}
 
 .btn-primary {
     background-color: transparent;
