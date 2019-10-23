@@ -28,29 +28,30 @@
   <section id="game">
      <div class="container-fluid">
     <div class="row">
-       <span class="col-sm-4"id="scoreBoard"></span>
+       <span class="col-sm-4" id="scoreBoard"></span>
          <span class="col-sm-4"id="timer"></span>
          </div>
       </div>
 
-              <div id="cardData"></div>
-              <div id="publisher"></div>
-
+      <div class="container-fluid">
         <div class="row">
             <button class="col-sm-4" type="submit" onclick="getData(), getScore()" value="DC" id="publishers" for="DC"><img src="img/DC_logo.png"></button>
-        <div class="col-sm-4">
-          <img class="hero-img" id="hero" src="img/default.jpg">
-          </div>
-            <button class="col-sm-4" type="submit" onclick="getData(), getScore()" value="Marvel" id="publishers" for="Marvel"><img src="img/Marvel_logo.png"></button>
-          </div>
+             <div class="col-sm-4">
+              <div id="cardData"></div>
+              <div id="publisher"></div>
+              <img class="hero-img" id="hero" src="img/default.jpg">
+              </div>
+             <button class="col-sm-6" type="submit" onclick="getData(), getScore()" value="Marvel" id="publishers" for="Marvel"><img src="img/Marvel_logo.png"></button>
          </div>
        </div>
 
-      <div class="row">
+<div class="container-fluid">
+    <div class="row">
       <div class="col-sm-4 col-sm-offset-4">
         <button id="playBtn"><i class="fa fa-play"></i></button>
       </div>
     </div>
+</div>
 </div>
 </section>
 
@@ -69,7 +70,7 @@
         <!-- Modal body -->
         <div class="modal-body">
         <p class="instructions">Do you know your SuperHeros/Villains?<br> Are they from DC comics or Marvel Comics? Test your knowledge to see if you are a Super Scholar<br>
-        Click or swipe left if you think the character is DC<br>Click right or swipe right for Marvel<br>
+        Click left if you think the character is DC<br>Click right for Marvel<br>
         For each correct answer gain 10 Scholar Points<br>Get as many as you can within the 30 second timer</p>
         </div>
 
@@ -93,29 +94,10 @@
         </div>
 
         <!-- Modal body -->
-    <div class="modal-body">
+ <div class="modal-body">
      <div class="Score" >
-         <table  class="table" id="LeaderBoard" style="overflow-x:auto;">
-    <tr>
-      <th scope= "col">Ranking</th>
-      <th scope="col">Player</th>
-      <th scope="col">Score</th>
-    </tr>
-    <tr>
-      <td scope="row">1</td>
-      <td scope="col" id="player"></td>
-      <td scope="col" id="Score"></td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td></td>
-      <td></td>
-    </tr>
+     <table  class="table" id="super" style="overflow-x:auto;">
+
   </table>
  </div>
 </div>
@@ -123,8 +105,7 @@
         <!-- Modal footer -->
         <div class="modal-footer">
 
-          <button type="button" class="btn btn-replay" data-dismiss="modal">Play again?</button>
-           <button type="button" class="btn btn-secondary" data-dismiss="modal">Exit</button>
+          <button type="button" class="btn btn-replay" onclick= location.reload(); data-dismiss="modal">Play again?</button>
         </div>
 
 
@@ -148,7 +129,7 @@
      <form>
   <div class="form-row">
     <div class="col">
-      <input type="text" class="form-control" placeholder="player name" id="playerName">
+      <input type="text" class="form-control" placeholder="Player Name" id="playerName" >
     </div>
   </div>
 </form>

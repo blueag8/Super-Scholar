@@ -27,7 +27,7 @@ div#publisher {
     visibility: hidden;
 }
 
-button#publisher {
+button#publishers {
     background-color: transparent;
     border: none;
     width: auto;
@@ -38,6 +38,7 @@ img {
 
 .hero-img{
     height: 25em;
+    width:auto;
     }
 
 p.card-text {

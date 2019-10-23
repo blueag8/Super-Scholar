@@ -3,12 +3,13 @@ var game=document.getElementById("playBtn");
 
 score=0;
 timer=0;
-publisher=null;
 
-//add event listners
+
+//add event listner
 game.addEventListener("click", startGame);
 
 
+//trigger all functions
 function startGame(){
    startTimer();
    getScore();
@@ -16,7 +17,9 @@ function startGame(){
    }
 
 function startTimer(){
-  var secs= 30;
+
+
+  var secs= 5;
   var clock= document.getElementById("timer");
 
   var timerId=setInterval(countdown, 1000);
@@ -115,17 +118,19 @@ game.gamecard;
 }
 
 function getScore(){
+
 publisher=document.getElementById("publishers").value;
 publishers=event.target.value;
 gamecard=document.getElementById("publisher").innerHTML;
 var scoreBoard=document.getElementById("scoreBoard");
 
+scoreBoard.innerHTML="Scholar-Points = " + score;
+scoreBoard.style.backgroundColor="white";
 
 if(publisher===gamecard){
 
 score +=10 ;
-scoreBoard.innerHTML="Scholar-Points = " + score;
-scoreBoard.style.backgroundColor="white";
+
 score=score;
 
 document.getElementById("game").style.backgroundColor="green";
@@ -134,19 +139,32 @@ document.getElementById("game").style.backgroundColor="green";
 else{
 document.getElementById("game").style.backgroundColor="red";
     console.log("wrong");
-    score=score;
 }
 console.log(typeof gamecard, gamecard, typeof publisher, publisher, typeof score, score);
 }
 
-
+//create LeaderBoard
 function leaderBoard() {
-  var player= document.getElementById("playerName").value;
-  document.getElementById("player").innerHTML = player;
+  name= document.getElementById("playerName").value;
 
-  var score=document.getElementById("scoreBoard").innerHTML;
-  document.getElementById("Score").innerHTML= score;
+  score=document.getElementById("scoreBoard").innerHTML;
 
-  console.log(typeof score, scoreBoard);
+  let superScholar= name + score;
+
+  SuperScholars=localStorage.setItem("superScholar",  superScholar);
+
+
+  highscores=localStorage.getItem("superScholar");
+
+
+
+  for (var i = 0;  i < highscores.length; i++) {
+
+      document.getElementById("super").innerHTML += "<tr><td>" + highscores[i].value+ "</td><td>" + highscores[i].name + "</td><td>" + highscores[i].score + "</td></tr>";
+
+
+     }
+  console.log(typeof score, typeof name);
+
 
 }
