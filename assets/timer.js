@@ -8,11 +8,9 @@ timer=0;
 //add event listner
 game.addEventListener("click", startGame);
 
-
 //trigger all functions
 function startGame(){
    startTimer();
-   getScore();
    getData();
    }
 
@@ -42,8 +40,10 @@ function startTimer(){
             clock.style.color="red";
 
          }
+         console.log(score, gamecard);
     }
 }
+
 function getData(){
 
 const hero=[{
@@ -115,19 +115,20 @@ img=document.getElementById("hero").src=item.img;
 gamecard= card + publisher + img;
 game.gamecard;
 
+console.log(gamecard);
 }
 
-function getScore(){
 
+function getScore(){
 publisher=document.getElementById("publishers").value;
-publishers=event.target.value;
+publisher=event.target.value;
 gamecard=document.getElementById("publisher").innerHTML;
 var scoreBoard=document.getElementById("scoreBoard");
 
 scoreBoard.innerHTML="Scholar-Points = " + score;
 scoreBoard.style.backgroundColor="white";
 
-if(publisher===gamecard){
+if(gamecard===publisher){
 
 score +=10 ;
 
@@ -140,6 +141,7 @@ else{
 document.getElementById("game").style.backgroundColor="red";
     console.log("wrong");
 }
+
 console.log(typeof gamecard, gamecard, typeof publisher, publisher, typeof score, score);
 }
 

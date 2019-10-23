@@ -32,29 +32,24 @@
 
    <div class="container-fluid">
     <div class="row">
+     <div class="col-sm-offset-4">
        <span id="scoreBoard"></span>
          <span id="timer"></span>
+      </div>
       </div>
 
   <div class="gameboard">
      <div class="row">
-      <button class="col-sm-4" type="submit" onclick="getData(), getScore()" value="DC" id="publishers" for="DC"><img src="img/DC_logo.png"></button>
+      <button class="col-sm-4" type="submit" onclick="getScore(), getData()" value="DC" id="publishers" for="DC"><img src="img/DC_logo.png"></button>
      <section id="game" class="col-sm-4">
               <div id="cardData"></div>
               <div id="publisher"></div>
               <img class="img-responsive" id="hero" src="img/default.jpg">
-  </section>
-
-      <button class="col-sm-4" type="submit" onclick="getData(), getScore()" value="Marvel" id="publishers" for="Marvel"><img src="img/Marvel_logo.png"></button>
+     </section>
+      <button class="col-sm-4" type="submit" onclick="getScore(), getData()" value="Marvel" id="publishers" for="Marvel"><img src="img/Marvel_logo.png"></button>
      </div>
-
-
-    <div class="row">
-      <div class="col-sm-12 col-sm-offset-6">
-        <button id="playBtn"><i class="fa fa-play"></i></button>
-      </div>
     </div>
-</div>
+        <button class ="col-sm-offset-6" id="playBtn"><i class="fa fa-play"></i></button>
 </div>
 
 

@@ -47,6 +47,7 @@ img {
     background-repeat: no-repeat;
     background-size: contain;
     padding:2em;
+    float:left;
     }
 
 .btn-primary {
