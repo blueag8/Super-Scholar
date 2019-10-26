@@ -162,15 +162,22 @@ function leaderBoard() {
 
   highscores=localStorage.getItem("superScholar");
 
+  var results=document.getElementById("super").rows.length=5;
 
 
-  for (var i = 0;  i < highscores.length; i++) {
+     for (var i= 0; i< highscores.length; i++) {
 
-      document.getElementById("super").innerHTML += "<tr><td>" + highscores[i].value+ "</td><td>" + highscores[i].name + "</td><td>" + highscores[i].score + "</td></tr>";
-
-
-     }
-  console.log(typeof score, typeof name);
+      results= document.getElementById("super").innerHTML= "<tr><td>" + highscores[i].value+ "</td><td>" + highscores[i].name + "</td><td>" + highscores[i].score + "</td></tr>";
 
 
+     }if(superScholars.score > highscores.scores){
+       new results= document.getElementById("super").push(new result);
+  }
+  else if(superScholars.score < highscore.scores){
+         super
+  }
+  console.log(typeof score,  score, typeof name, name, highscores);
+
+
+}
 }
