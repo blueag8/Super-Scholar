@@ -4,9 +4,6 @@ body {
 
 }
 
-.row{
-    margin-bottom: 5em;
-}
 span#scoreBoard {
     border-radius: 1em;
     font-size: 1em;
@@ -30,13 +27,11 @@ div#publisher {
     visibility: hidden;
 }
 
-button#publishers {
+#publishers {
     background-color: transparent;
     border: none;
-
-}
-img {
     height: 5em;
+
 }
 
 #hero{

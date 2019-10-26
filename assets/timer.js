@@ -1,4 +1,3 @@
-
 var game=document.getElementById("playBtn");
 
 score=0;
@@ -12,11 +11,12 @@ game.addEventListener("click", startGame);
 function startGame(){
    startTimer();
    getData();
-   }
+   getScore();
+
+}
+console.log();
 
 function startTimer(){
-
-
   var secs= 30;
   var clock= document.getElementById("timer");
 
@@ -115,35 +115,39 @@ img=document.getElementById("hero").src=item.img;
 gamecard= card + publisher + img;
 game.gamecard;
 
-console.log(gamecard);
+console.log(typeof gamecard);
+
 }
 
 
-function getScore(){
-publisher=document.getElementById("publishers").value;
-publisher=event.target.value;
-gamecard=document.getElementById("publisher").innerHTML;
-var scoreBoard=document.getElementById("scoreBoard");
 
+function getScore(){
+
+gamecard=document.getElementById("publisher").innerHTML;
+scoreBoard=document.getElementById("scoreBoard");
 scoreBoard.innerHTML="Scholar-Points = " + score;
 scoreBoard.style.backgroundColor="white";
+userInput=event.target.value;
 
-if(gamecard===publisher){
+
+if(userInput===gamecard){
 
 score +=10 ;
 
 score=score;
 
 document.getElementById("game").style.backgroundColor="green";
-    console.log("correct");
+    console.log ("correct");
 }
-else{
+
+else {
 document.getElementById("game").style.backgroundColor="red";
     console.log("wrong");
 }
 
-console.log(typeof gamecard, gamecard, typeof publisher, publisher, typeof score, score);
+console.log(typeof userInput, "answer="+ userInput,typeof publisher,"publisher="+ publisher, typeof gamecard, "gamecard="+gamecard, typeof score, score);
 }
+
 
 //create LeaderBoard
 function leaderBoard() {
