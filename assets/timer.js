@@ -1,23 +1,23 @@
 var game=document.getElementById("playBtn");
 
-score=0;
-timer=0;
-
-
 //add event listner
 game.addEventListener("click", startGame);
 
+score=0;
+timer=0;
+score=0;
 //trigger all functions
 function startGame(){
    startTimer();
-   getData();
-   getScore();
+
 
 }
 console.log();
 
 function startTimer(){
-  var secs= 30;
+ getData();
+ getScore();
+  var secs= 15;
   var clock= document.getElementById("timer");
 
   var timerId=setInterval(countdown, 1000);
@@ -120,29 +120,30 @@ console.log(typeof gamecard);
 }
 
 
-
 function getScore(){
-
-gamecard=document.getElementById("publisher").innerHTML;
 scoreBoard=document.getElementById("scoreBoard");
 scoreBoard.innerHTML="Scholar-Points = " + score;
 scoreBoard.style.backgroundColor="white";
-userInput=event.target.value;
+gamecard=document.getElementById("publisher").innerHTML;
+score=score;
 
+userInput=event.target.value;
 
 if(userInput===gamecard){
 
-score +=10 ;
-
-score=score;
+score +=10;
 
 document.getElementById("game").style.backgroundColor="green";
     console.log ("correct");
 }
 
 else {
+
+score+=0;
 document.getElementById("game").style.backgroundColor="red";
     console.log("wrong");
+    getData();
+
 }
 
 console.log(typeof userInput, "answer="+ userInput,typeof publisher,"publisher="+ publisher, typeof gamecard, "gamecard="+gamecard, typeof score, score);
@@ -150,34 +151,20 @@ console.log(typeof userInput, "answer="+ userInput,typeof publisher,"publisher="
 
 
 //create LeaderBoard
+
 function leaderBoard() {
   name= document.getElementById("playerName").value;
 
   score=document.getElementById("scoreBoard").innerHTML;
 
-  let superScholar= name + score;
+  superScholars=localStorage.setItem("superScholar",JSON.stringify({ "name":name ,"score": score}));
 
-  SuperScholars=localStorage.setItem("superScholar",  superScholar);
+  highscores=JSON.parse(localStorage.getItem("superScholar"));
 
+     for (var i=0; i < highscores.length; i++); {
 
-  highscores=localStorage.getItem("superScholar");
-
-  var results=document.getElementById("super").rows.length=5;
-
-
-     for (var i= 0; i< highscores.length; i++) {
-
-      results= document.getElementById("super").innerHTML= "<tr><td>" + highscores[i].value+ "</td><td>" + highscores[i].name + "</td><td>" + highscores[i].score + "</td></tr>";
-
-
-     }if(superScholars.score > highscores.scores){
-       new results= document.getElementById("super").push(new result);
+    document.getElementById("super").innerHTML = "<tr><td>" + highscores.name + "</td><td>" + highscores.score + "</td></tr>";
   }
-  else if(superScholars.score < highscore.scores){
-         super
-  }
-  console.log(typeof score,  score, typeof name, name, highscores);
+  console.log(typeof score,  score, typeof name,);
 
-
-}
 }
