@@ -1,24 +1,40 @@
 var game=document.getElementById("playBtn");
 
 //add event listner
-game.addEventListener("click", startGame);
+game.addEventListener("click", startGame, hideButton );
 
-score=0;
-timer=0;
-score=0;
+
+function hideButton(){
+var x= document.getElementById("play");
+    if (x.style.display === "none")
+    {
+        x.style.display="block";
+    }else{
+        x.style.display = "none";
+
+    }
+}
+
+var score=0;
+var timer=0;
+
 //trigger all functions
 function startGame(){
-   startTimer();
-
-
+           startTimer();
 }
+
 console.log();
 
-function startTimer(){
- getData();
- getScore();
+function
+ startTimer(){
+  getData();
+   getScore();
+
+  var scoreBoard=document.getElementById("scoreBoard");
+  scoreBoard.style.backgroundColor="white";
   var secs= 15;
   var clock= document.getElementById("timer");
+
 
   var timerId=setInterval(countdown, 1000);
 
@@ -27,6 +43,7 @@ function startTimer(){
 
          if (secs == 0) {
             clearInterval(timerId);
+            clock.innerHTML= "0";
             $('#gameOver').modal('show');
 
          }
@@ -45,6 +62,7 @@ function startTimer(){
 }
 
 function getData(){
+
 
 const hero=[{
     //test//
@@ -122,29 +140,48 @@ console.log(typeof gamecard);
 
 function getScore(){
 scoreBoard=document.getElementById("scoreBoard");
-scoreBoard.innerHTML="Scholar-Points = " + score;
-scoreBoard.style.backgroundColor="white";
+
 gamecard=document.getElementById("publisher").innerHTML;
-score=score;
+
 
 userInput=event.target.value;
 
 if(userInput===gamecard){
 
 score +=10;
+scoreBoard.innerHTML="Scholar-Points = " + score;
+console.log ("correct");
 
-document.getElementById("game").style.backgroundColor="green";
-    console.log ("correct");
+document.getElementById("hero").style.backgroundColor="green";
 }
 
 else {
+ document.getElementById("hero").style.backgroundColor="red";
 
-score+=0;
-document.getElementById("game").style.backgroundColor="red";
+ scoreBoard.innerHTML="Scholar-Points = " + score;
     console.log("wrong");
-    getData();
 
 }
+
+
+result=function(){
+
+       if(score <= 10){
+          result="You need more practice!";
+         if(score >=10 && score <=50){
+           result="You are a Novice";
+         }
+         if(score >=50 && score <=100){
+            result="Wow you know your stuff!";
+         }
+         if(score >=100){
+            result="You are a SUPER scholar!";
+         }
+         else{
+             console.log(result);
+         }
+       }
+  }
 
 console.log(typeof userInput, "answer="+ userInput,typeof publisher,"publisher="+ publisher, typeof gamecard, "gamecard="+gamecard, typeof score, score);
 }
@@ -155,7 +192,8 @@ console.log(typeof userInput, "answer="+ userInput,typeof publisher,"publisher="
 function leaderBoard() {
   name= document.getElementById("playerName").value;
 
-  score=document.getElementById("scoreBoard").innerHTML;
+  score=score;
+
 
   superScholars=localStorage.setItem("superScholar",JSON.stringify({ "name":name ,"score": score}));
 
@@ -163,8 +201,8 @@ function leaderBoard() {
 
      for (var i=0; i < highscores.length; i++); {
 
-    document.getElementById("super").innerHTML = "<tr><td>" + highscores.name + "</td><td>" + highscores.score + "</td></tr>";
+    document.getElementById("super").innerHTML =  "Congratulations"+ " " +highscores.name + " " + "You got" + " " + highscores.score+" "+"Scholar Points!";
   }
-  console.log(typeof score,  score, typeof name,);
+  console.log(typeof score,  score, typeof name, result);
 
 }

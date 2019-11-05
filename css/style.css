@@ -1,59 +1,76 @@
 body {
    background: linear-gradient(to bottom, #ff0000 0%, #800000 100%);
    background-repeat: no-repeat;
+   padding-bottom: 5em;
+   margin:2em;
+   background-size: contain;
 
 }
 
-span#scoreBoard {
+.text-center {
+    text-align: center;
+    margin-bottom: 2em;
+
+}
+
+span#scoreBoard{
     border-radius: 1em;
-    font-size: 1em;
-    padding: 1em;
-    margin:2em;
-    border-color: black;
+    background-size: contain;
+    padding: 2em;
+    position: relative;
+    z-index: 1;
 }
 span#timer {
     border-radius: 1em;
     font-size: 1em;
     padding: 1em;
-    margin:2em;
-    border-color: black;
+    position: relative;
+    z-index: 1;
 }
 
 #cardData{
     visibility: hidden;
+    position:absolute;
 }
 
 div#publisher {
     visibility: hidden;
+    position: absolute;
 }
 
 #publishers {
     background-color: transparent;
     border: none;
-    height: 5em;
+    padding: 8em;
+
+
 
 }
 
 #hero{
     position:relative;
-    height:30em;
-    width:30em;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: contain;
-    padding:2em;
-    float:left;
+    background-color: whitesmoke;
+    padding:6em;
+    max-width: 100%;
+    height:500px;
+
+
     }
+
+#gameboard {
+    display: inline-block;
+    width: 100%;
+}
+
 
 .btn-primary {
     background-color: transparent;
     border-color: transparent;
 }
-.scoreBoard{
-    background-color: white;
-    background-size: contain;
-    padding: 2em;
-}
+
 
 
 .modal-content {
@@ -69,4 +86,38 @@ div#publisher {
     border: black;
     text-align: center;
 
+}
+button#playBtn {
+    border-radius: 2em;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    padding: 2em;
+}
+@media (max-width:768px){
+span#scoreBoard {
+
+    margin: -1em;
+
+}
+
+button#playBtn {
+    position: relative;
+    left: 50%;
+    margin: 1em;
+}
+span#timer {
+
+    margin: 0;
+
+}
+input#publishers {
+    background-color: transparent;
+    border: none;
+    height:5em;
+
+}
+body{
+    padding:2em;
+}
 }

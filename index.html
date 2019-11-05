@@ -30,25 +30,29 @@
  </div>
 
 
-   <div class="container-fluid">
+
     <div class="row">
-     <div class="col-sm-offset-4">
+     <div class="col-sm-offset-5">
     <span id="scoreBoard"></span>
          <span id="timer"></span>
       </div>
       </div>
 
 
-     <div class="row">
-      <input type="image" src="img/DC_logo.png" onclick="getScore(), getData()" value="DC" id="publishers" for="DC">
-     <section id="game" class="col-sm-4">
+   <div id="play">
+      <button class ="col-sm-offset-6" id="playBtn" onclick="hideButton()"><i class="fa fa-play"></i></button>
+    </div>
+     <div id="gameboard">
+      <input type="image" src="img/DC_logo.png" onclick="getScore(), getData()" value="DC" id="publishers" for="DC" class="col-sm-4">
+        <section id="game">
               <div id="cardData"></div>
               <div id="publisher"></div>
-              <img class="img-responsive" id="hero" src="img/default.jpg">
+              <img class="col-sm-4" id="hero" src="img/default.jpg">
      </section>
-      <input type="image" src="img/Marvel_logo.png" onclick="getScore(), getData()" value="Marvel" id="publishers" for="Marvel">
+      <input type="image" src="img/Marvel_logo.png" onclick="getScore(), getData()" value="Marvel" id="publishers" for="Marvel" class="col-sm-4">
      </div>
-        <button class ="col-sm-offset-6" id="playBtn"><i class="fa fa-play"></i></button>
+        </div>
+        </div>
     </div>
 
 
@@ -87,6 +91,7 @@
         <!-- Modal Header -->
         <div class="modal-header">
           <h4 class="modal-title">GAME OVER</h4>
+          <div id="result"></div>
         </div>
 
         <!-- Modal body -->
@@ -125,7 +130,7 @@
      <form>
   <div class="form-row">
     <div class="col">
-      <input type="text" class="form-control" placeholder="Player Name" id="playerName" >
+      <input type="text" class="form-control" placeholder="Player Name" id="playerName" required>
     </div>
   </div>
 </form>
@@ -133,7 +138,7 @@
         <!-- Modal footer -->
         <div class="modal-footer">
 
-        <button type="submit" onclick ="leaderBoard()" data-toggle="modal" data-target="#LeaderBoard" data-dismiss="modal">Submit</button>
+        <button type="submit" onclick ="leaderBoard()" data-target="#LeaderBoard" data-backdrop="static" data-toggle="modal" data-dismiss="modal">Submit</button>
         </div>
 
 
