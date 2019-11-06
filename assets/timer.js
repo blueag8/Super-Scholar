@@ -117,7 +117,46 @@ const hero=[{
     name:"Storm",
     publisher:"Marvel",
     img:"img/Storm.jpg"
-}];
+},
+
+{
+    name:"Flash",
+    publisher:"DC",
+    img:"img/flash.jpg"
+},
+
+{
+    name:"Deadpool",
+    publisher:"Marvel",
+    img:"img/Deadpool.jpg"
+},
+{
+    name:"Green Lantern",
+    publisher:"DC",
+    img:"img/Green.jpg"
+},
+{
+    name:"Wonder Woman",
+    publisher:"DC",
+    img:"img/Wonder"
+},
+{
+    name:"Aquaman",
+    publisher:"DC",
+    img:"img/aqua.jpg"
+},
+
+{
+    name:"Carol Danvers aka ms. Marvel",
+    publisher:"Marvel",
+    img:"img/msmarvel.jpg"
+},
+{
+    name:"Clint Barton aka Hawkeye",
+    publisher:"Marvel",
+    img:"img/Hawkeye.jpg"
+},
+];
 
 const keys = Object.keys(hero);
 const randomIndex = keys[Math.floor(Math.random() * keys.length)];
@@ -163,33 +202,33 @@ else {
 
 }
 
-
-result=function(){
-
-       if(score <= 10){
-          result="You need more practice!";
-         if(score >=10 && score <=50){
-           result="You are a Novice";
-         }
-         if(score >=50 && score <=100){
-            result="Wow you know your stuff!";
-         }
-         if(score >=100){
-            result="You are a SUPER scholar!";
-         }
-         else{
-             console.log(result);
-         }
-       }
-  }
-
 console.log(typeof userInput, "answer="+ userInput,typeof publisher,"publisher="+ publisher, typeof gamecard, "gamecard="+gamecard, typeof score, score);
 }
 
-
+function getResult(){
+score=score;
+       if(score <= 10){
+         result="You need more practice!";
+       }
+        else if(score >=10 && score <=50){
+         result= " You are a Novice";
+         }
+        else if(score >=50 && score <=100){
+           result= "Wow you know your stuff!";
+         }
+        else if(score >=100){
+            result="You are a SUPER scholar!";
+         }
+        else{
+            console.log(error);
+        }
+        console.log(result, typeof result);
+     }
 //create LeaderBoard
 
 function leaderBoard() {
+  getResult();
+
   name= document.getElementById("playerName").value;
 
   score=score;
@@ -200,9 +239,9 @@ function leaderBoard() {
   highscores=JSON.parse(localStorage.getItem("superScholar"));
 
      for (var i=0; i < highscores.length; i++); {
-
+    document.getElementById('result').innerHTML= result;
     document.getElementById("super").innerHTML =  "Congratulations"+ " " +highscores.name + " " + "You got" + " " + highscores.score+" "+"Scholar Points!";
   }
-  console.log(typeof score,  score, typeof name, result);
+  console.log(typeof score,  score, typeof name);
 
 }
