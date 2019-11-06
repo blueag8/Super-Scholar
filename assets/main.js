@@ -85,7 +85,7 @@ const hero=[{
 {
     name:"Thor",
     publisher:"Marvel",
-    img:"img/Thor.png"
+    img:"img/Thor.jpg"
 },
 {
     name:"Batman",

@@ -40,14 +40,14 @@
 
 
    <div id="play">
-      <button class ="col-sm-offset-6" id="playBtn" onclick="hideButton()"><i class="fa fa-play"></i></button>
+      <button id="playBtn" onclick="hideButton()"><i class="fa fa-play"></i></button>
     </div>
      <div id="gameboard">
       <input type="image" src="img/DC_logo.png" onclick="getScore(), getData()" value="DC" id="publishers" for="DC" class="col-sm-4">
-        <section id="game">
+        <section id="game" class="col-sm-4">
               <div id="cardData"></div>
               <div id="publisher"></div>
-              <img class="col-sm-4" id="hero" src="img/default.jpg">
+              <img class="img-responsive" id="hero" src="img/default.jpg">
      </section>
       <input type="image" src="img/Marvel_logo.png" onclick="getScore(), getData()" value="Marvel" id="publishers" for="Marvel" class="col-sm-4">
      </div>
@@ -147,7 +147,7 @@
   </div>
 
 </div>
-    <script src="assets/timer.js"></script>
+    <script src="assets/main.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script>
