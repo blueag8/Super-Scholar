@@ -32,7 +32,7 @@ function
 
   var scoreBoard=document.getElementById("scoreBoard");
   scoreBoard.style.backgroundColor="white";
-  var secs= 15;
+  var secs= 30;
   var clock= document.getElementById("timer");
 
 
@@ -138,7 +138,7 @@ const hero=[{
 {
     name:"Wonder Woman",
     publisher:"DC",
-    img:"img/Wonder"
+    img:"img/Wonder.jpg"
 },
 {
     name:"Aquaman",
