@@ -81,11 +81,13 @@ Github
 
 **Deployment**
 Github
-Appeare
+
 Bugs
 appeared fine on Honor Android phone but on iPhone the play button is almost transparent.
 
-Player can still activate get data before the time
+Player can still activate get data and get score before the timer starts.
+
+
 # Credits
 [https://comicvine.gamespot.com/api/documentation](https://comicvine.gamespot.com/api/documentation)
 
@@ -108,7 +110,7 @@ https://www.taniarascia.com/how-to-create-a-memory-game-super-mario-with-plain-j
 https://www.w3schools.com
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NDIwNjIzMywtMTc2NTYyOTQ3MiwxMD
+eyJoaXN0b3J5IjpbLTM0MjIyNzA0OSwtMTc2NTYyOTQ3MiwxMD
 k5NTI1ODE1LDEzMjI5NTU4MDgsODg1MTU5NzQyLDczMDk5ODEx
 Nl19
 -->
