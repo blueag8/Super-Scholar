@@ -32,7 +32,7 @@
 
 
     <div class="row">
-     <div class="col-sm-offset-5">
+     <div class="data">
     <span id="scoreBoard"></span>
          <span id="timer"></span>
       </div>
@@ -44,11 +44,13 @@
     </div>
      <div id="gameboard">
       <input type="image" src="img/DC_logo.png" onclick="getScore(), getData()" value="DC" id="publishers" for="DC" class="col-sm-4">
-        <section id="game" class="col-sm-4">
+        <main id="game" class="col-sm-4">
               <div id="cardData"></div>
               <div id="publisher"></div>
+            <div class="cardImage">
               <img class="img-responsive" id="hero" src="img/default.jpg">
-     </section>
+            </div>
+     </main>
       <input type="image" src="img/Marvel_logo.png" onclick="getScore(), getData()" value="Marvel" id="publishers" for="Marvel" class="col-sm-4">
      </div>
         </div>
@@ -70,7 +72,7 @@
         <!-- Modal body -->
         <div class="modal-body">
         <p class="instructions">Do you know your SuperHeros/Villains?<br> Are they from DC comics or Marvel Comics? Test your knowledge to see if you are a Super Scholar<br>
-        Click left if you think the character is DC<br>Click right for Marvel<br>
+        Click the DC logo if you think the character is DC<br>Or Click the logo for Marvel<br>
         For each correct answer gain 10 Scholar Points<br>Get as many as you can within the 30 second timer</p>
         </div>
 

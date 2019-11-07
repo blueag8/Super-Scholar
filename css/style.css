@@ -2,7 +2,7 @@ body {
    background: linear-gradient(to bottom, #ff0000 0%, #800000 100%);
    background-repeat: no-repeat;
    padding-bottom: 5em;
-   margin:2em;
+   margin:3em;
    background-size: contain;
 
 }
@@ -45,18 +45,32 @@ div#publisher {
     position: relative;
 
 
+}
+main#game {
+    padding: 2em;
+
 
 }
-#hero {
-    position: absolute;
+
+.cardImage {
+    margin-left: 2em;
+    margin-right: 1em;
+
+}
+
+ #hero {
+    background-color:  whitesmoke;
+    position: relative;
+    bottom: 50%;
+    /* position: absolute; */
     /* background-position: 50% 50%; */
     /* background-repeat: no-repeat; */
     /* background-size: contain; */
-    background-color: whitesmoke;
     padding: 1em;
     max-width: 100%;
-    height: 350px;
-    left: 20%;
+    /* left: 20%; */
+    top: 50%;
+    height:400px;
 }
 #gameboard {
     display: inline-block;
@@ -106,37 +120,7 @@ div#play {
 #gameboard{
     margin-left:-1;
 }
-input#publishers {
-    background-color: transparent;
-    border: none;
-    height: 5em;
-     width:auto;
-}
-#publishers {
-    background-color: transparent;
-    border: none;
-    padding: 0;
-    position: relative;
-}
-    #hero {
-    position: relative;
-    bottom: 50%;
-    /* position: absolute; */
-    /* background-position: 50% 50%; */
-    /* background-repeat: no-repeat; */
-    /* background-size: contain; */
-    background-color: whitesmoke;
-    padding: 1em;
-    max-width: 100%;
-    height: 300px;
-    /* left: 20%; */
-    top: 50%;
-}
-div#play {
-    position: absolute;
-    left: 30%;
-    /* top: 59%; */
-}
+
 span#scoreBoard {
 
     margin: -1em;
@@ -153,13 +137,25 @@ span#timer {
     margin: 0;
 
 }
-input#publishers {
-    background-color: transparent;
-    border: none;
-    width: 6em;
-    left: 40%;
-}
+
 body{
     padding:0em;
 }
+.data {
+    left: 29%;
+    position: absolute;
+    top: 5%;
+}
+
+#publishers {
+    background-color: transparent;
+    border: none;
+    padding: 0em;
+    height: 4em;
+    position: relative;
+}
+#hero{
+    height: 300px;
+}
+
 }
