@@ -77,8 +77,11 @@ Difficulty levels perhaps this can be achieved by including characters that are 
 Github
 
 **Testing**
-**Deployment**
 
+
+**Deployment**
+Github
+Appear
 # Credits
 [https://comicvine.gamespot.com/api/documentation](https://comicvine.gamespot.com/api/documentation)
 
@@ -101,6 +104,7 @@ https://www.taniarascia.com/how-to-create-a-memory-game-super-mario-with-plain-j
 https://www.w3schools.com
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjU2Mjk0NzIsMTA5OTUyNTgxNSwxMz
-IyOTU1ODA4LDg4NTE1OTc0Miw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTUyOTY1NTk2LC0xNzY1NjI5NDcyLDEwOT
+k1MjU4MTUsMTMyMjk1NTgwOCw4ODUxNTk3NDIsNzMwOTk4MTE2
+XX0=
 -->
