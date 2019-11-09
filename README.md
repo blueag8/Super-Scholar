@@ -73,7 +73,7 @@ Scoreboard
 **Future Features to Implement**
 Difficulty levels perhaps this can be achieved by including characters that are least known or grouped by popularity.
 
-A larger database of characters.  This I had been hoping to acheive through accessing a third party api from "ComicVine"(see link in credits). I found it very difficult to successfully connect using a key. So due to time restrictions I attempted downloading a JSON format from another external database "
+A larger database of characters.  This I had been hoping to acheive through accessing a third party api from "ComicVine"(see link in credits). I found it very difficult to successfully connect using a key. So due to time restrictions I attempted downloading a JSON format from another external database within "Kaggle".  This too also proved difficult, so I decided to include a small database style 
 
 **Version control**
 Github
@@ -121,7 +121,7 @@ https://stackoverflow.com/
 https://www.w3schools.com
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzExNDkzNjAsLTM0MjIyNzA0OSwtMT
+eyJoaXN0b3J5IjpbLTE5MjczMjk5MTEsLTM0MjIyNzA0OSwtMT
 c2NTYyOTQ3MiwxMDk5NTI1ODE1LDEzMjI5NTU4MDgsODg1MTU5
 NzQyLDczMDk5ODExNl19
 -->
