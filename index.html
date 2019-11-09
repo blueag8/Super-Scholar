@@ -1,165 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Super Scholar| A game for super know-it-alls</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
-    <link rel="stylesheet" href="css/style.css" type="text/css">
-    <script type="text/javascript" src="assets/main.js"></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Super Scholar| A game for super know-it-alls</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+		type="text/css" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+		type="text/css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+		type="text/css" />
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<script type="text/javascript" src="assets/main.js"></script>
 </head>
+
 <body>
-    <div class="container-fluid">
-    <div class="row">
-      <button type="button" class="btn btn-primary" id="helpBtn" data-target="#helpModal" data-toggle="tooltip" title="How to play"> <i class="fa fa-gears fa-2x" style="color:Black;"></i></button>
-    </div>
-</div>
 
-<div class="container-fluid">
-    <div class="row">
-     <div class="col-sm-4 col-sm-offset-4">
-     <div class="text-center"><a href="https://cooltext.com">
+	<!--Modal Help/Game Instructions-->
 
-        <img class="img-responsive" src="https://images.cooltext.com/5332968.png" alt="Super Scholar" /></a>
-<br />Image by <a href="https://cooltext.com">Cool Text: Logo and Button Generator</a> - <a href="https://cooltext.com/Edit-Logo?LogoID=3374207878">Create Your Own Logo</a></div>
-    </div>
-  </div>
- </div>
+	<div class="container-fluid">
+		<div class="row">
+			<button type="button" class="btn btn-primary" id="helpBtn" data-target="#helpModal" data-toggle="tooltip" title="How to play"> <i class="fa fa-gears fa-2x" style="color:Black;"></i></button>
+		</div>
+	</div>
 
+	<!--logo created by external party-->
 
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-4 col-sm-offset-4">
+				<div class="text-center"><a href="https://cooltext.com">
 
-    <div class="row">
-     <div class="data">
-    <span id="scoreBoard"></span>
-         <span id="timer"></span>
-      </div>
-      </div>
+						<img class="img-responsive" src="https://images.cooltext.com/5332968.png" alt="Super Scholar" /></a>
+						<br />Image by <a href="https://cooltext.com">Cool Text: Logo and Button Generator</a> - <a
+							href="https://cooltext.com/Edit-Logo?LogoID=3374207878">Create Your Own Logo</a></div>
+			</div>
+		</div>
+	</div>
 
 
-   <div id="play">
-      <button id="playBtn" onclick="hideButton()"><i class="fa fa-play"></i></button>
-    </div>
-     <div id="gameboard">
-      <input type="image" src="img/DC_logo.png" onclick="getScore(), getData()" value="DC" id="publishers" for="DC" class="col-sm-4">
-        <main id="game" class="col-sm-4">
-              <div id="cardData"></div>
-              <div id="publisher"></div>
-            <div class="cardImage">
-              <img class="img-responsive" id="hero" src="img/default.jpg">
+	<!--Score Board-->
+
+	<div class="row">
+		<div class="data">
+			<span id="scoreBoard"></span>
+			<span id="timer"></span>
+		</div>
+	</div>
+
+
+	<!--Play Game Button triggers startTimer, getData, getScore-->
+
+	<div id="play">
+		<button id="playBtn" onclick="hideButton()"><i class="fa fa-play"></i></button>
+	</div>
+
+	<!--Area to load data-->
+	<div id="gameboard">
+		<!--userInput-->
+		<input type="image" src="img/DC_logo.png"  value="DC" id="publishers" for="DC" class="col-sm-4">
+
+		<!--gameCard-->
+		<main id="game" class="col-sm-4">
+			<!--hero name-->
+			<div id="cardData"></div>
+			<!--publisher-->
+			<div id="publisher"></div>
+
+			<!--hero/card-->
+			<div class="cardImage">
+				<img class="img-responsive" id="hero" src="img/default.jpg">
             </div>
-     </main>
-      <input type="image" src="img/Marvel_logo.png" onclick="getScore(), getData()" value="Marvel" id="publishers" for="Marvel" class="col-sm-4">
+		</main>
+		<!--userInput-->
+		<input type="image" src="img/Marvel_logo.png" value="Marvel"  id="publishers" for="Marvel" class="col-sm-4">
      </div>
-        </div>
-        </div>
+	</div>
+	</div>
+	</div>
+
+
+	<!-- The Modal -->
+	<div class="modal fade" id="helpModal">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+
+				<!-- Modal Header -->
+				<div class="modal-header">
+					<h4 class="modal-title">HOW TO PLAY</h4>
+					<button type="button" class="close" data-dismiss="modal">×</button>
+				</div>
+
+				<!-- Modal body -->
+				<div class="modal-body">
+					<p class="instructions">Do you know your
+						SuperHeros/Villains?<br> Are they from DC comics or Marvel Comics? Test your knowledge to see if you are a Super Scholar!<br>
+        Click the logo that corresponds to the family you think the character belongs to. <br>
+        For each correct answer gain 10 Scholar Points.<br>Get as many as you can within the 30 second timer.</p>
+				</div>
+
+				<!-- Modal footer -->
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	</div>
+	<!-- The Modal -->
+	<div class="modal fade" id="LeaderBoard">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+
+				<!-- Modal Header -->
+				<div class="modal-header">
+					<h4 class="modal-title">GAME OVER</h4>
+					<div id="result"></div>
+				</div>
+
+				<!-- Modal body -->
+				<div class="modal-body">
+					<div class="Score">
+						<table class="table" id="super" style="overflow-x:auto;">
+
+						</table>
+					</div>
+				</div>
+
+				<!-- Modal footer -->
+				<div class="modal-footer">
+
+                   <!--Button onClick function clears Data ready to play another game-->
+					<button type="button" class="btn btn-replay" onclick= location.reload(); data-dismiss="modal">Play again?</button>
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+
+	<!-- The Modal -->
+	<div class="modal fade" id="gameOver">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+
+				<!-- Modal Header -->
+				<div class="modal-header">
+					<h4 class="modal-title">GAME OVER</h4>
+				</div>
+
+				<!-- Modal body -->
+				<div class="modal-body">
+					<div id="finalScore"></div>
+					<form>
+						<div class="form-row">
+							<div class="col">
+								<input type="text" class="form-control" placeholder="Player Name" id="playerName" required>
     </div>
+							</div>
+					</form>
+
+					<!-- Modal footer -->
+					<div class="modal-footer">
+
+						<button type="submit" onclick ="leaderBoard()" data-target="#LeaderBoard" data-backdrop="static" data-toggle="modal" data-dismiss="modal">Submit</button>
+					</div>
 
 
-<!-- The Modal -->
-  <div class="modal fade" id="helpModal">
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content">
+				</div>
+			</div>
+		</div>
 
-        <!-- Modal Header -->
-        <div class="modal-header">
-          <h4 class="modal-title">HOW TO PLAY</h4>
-          <button type="button" class="close" data-dismiss="modal">×</button>
-        </div>
-
-        <!-- Modal body -->
-        <div class="modal-body">
-        <p class="instructions">Do you know your SuperHeros/Villains?<br> Are they from DC comics or Marvel Comics? Test your knowledge to see if you are a Super Scholar<br>
-        Click the DC logo if you think the character is DC<br>Or Click the logo for Marvel<br>
-        For each correct answer gain 10 Scholar Points<br>Get as many as you can within the 30 second timer</p>
-        </div>
-
-        <!-- Modal footer -->
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-</div>
-<!-- The Modal -->
-  <div class="modal fade" id="LeaderBoard">
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content">
-
-        <!-- Modal Header -->
-        <div class="modal-header">
-          <h4 class="modal-title">GAME OVER</h4>
-          <div id="result"></div>
-        </div>
-
-        <!-- Modal body -->
- <div class="modal-body">
-     <div class="Score" >
-     <table  class="table" id="super" style="overflow-x:auto;">
-
-  </table>
- </div>
-</div>
-
-        <!-- Modal footer -->
-        <div class="modal-footer">
-
-          <button type="button" class="btn btn-replay" onclick= location.reload(); data-dismiss="modal">Play again?</button>
-        </div>
-
-
-      </div>
-    </div>
-  </div>
-
-<!-- The Modal -->
-  <div class="modal fade" id="gameOver">
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content">
-
-        <!-- Modal Header -->
-        <div class="modal-header">
-          <h4 class="modal-title">GAME OVER</h4>
-        </div>
-
-        <!-- Modal body -->
-    <div class="modal-body">
-     <div id="finalScore" ></div>
-     <form>
-  <div class="form-row">
-    <div class="col">
-      <input type="text" class="form-control" placeholder="Player Name" id="playerName" required>
-    </div>
-  </div>
-</form>
-
-        <!-- Modal footer -->
-        <div class="modal-footer">
-
-        <button type="submit" onclick ="leaderBoard()" data-target="#LeaderBoard" data-backdrop="static" data-toggle="modal" data-dismiss="modal">Submit</button>
-        </div>
-
-
-      </div>
-    </div>
-  </div>
-
-</div>
-    <script src="assets/main.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<script>
-$(document).ready(function(){
+	</div>
+	<!--JavaScript & jQuery src-->
+	<script src="assets/main.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+		integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+		integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+	</script>
+	<script>
+		$(document).ready(function(){
   $("#helpBtn").click(function(){
     $("#helpModal").modal();
   });
 });
-</script>
+	</script>
 </body>
+
 </html>
-
-

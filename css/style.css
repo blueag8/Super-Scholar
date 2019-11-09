@@ -7,6 +7,7 @@ body {
 
 }
 
+/*positioning for logo*/
 .text-center {
     text-align: center;
     margin-bottom: 2em;
@@ -28,16 +29,19 @@ span#timer {
     z-index: 1;
 }
 
+/*hides the characters name*/
 #cardData{
     visibility: hidden;
     position:absolute;
 }
 
+/*hides the answer from the browser*/
 div#publisher {
     visibility: hidden;
     position: absolute;
 }
 
+/*styling for userInput*/
 #publishers {
     background-color: transparent;
     border: none;
@@ -52,6 +56,7 @@ main#game {
 
 }
 
+/*gameCard*/
 .cardImage {
     margin-left: 2em;
     margin-right: 1em;
@@ -78,6 +83,7 @@ main#game {
 }
 
 
+/*modal styling*/
 .btn-primary {
     background-color: transparent;
     border-color: transparent;
@@ -92,13 +98,16 @@ main#game {
     font-weight: 400;
 }
 
-.modal-body{
-    margin: 1em;
+.modal-body {
+
     background-color:cornflowerblue;
-    border: black;
-    text-align: center;
 
 }
+.modal-header{
+    background-color: cornflowerblue;
+}
+
+/* play button style */
 button#playBtn {
     border-radius: 2em;
     position: absolute;
@@ -111,6 +120,9 @@ div#play {
     left: 48%;
     top: 59%;
 }
+
+/*mobile responsive*/
+
 @media (max-width:768px){
 .text-center {
     text-align: center;
