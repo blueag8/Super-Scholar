@@ -151,10 +151,13 @@ Stackoverflow-[https://stackoverflow.com/questions/29022829/increment-score-usin
 W3Schools-
 https://www.w3schools.com
 
+Blog-
+[https://josephephillips.com/blog/how-to-use-comic-vine-api-part1](https://josephephillips.com/blog/how-to-use-comic-vine-api-part1)
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMjA1MTY3MCwtMTEyMjM4MjI5MSwzMz
-EzNDEzNzYsLTM0MjIyNzA0OSwtMTc2NTYyOTQ3MiwxMDk5NTI1
-ODE1LDEzMjI5NTU4MDgsODg1MTU5NzQyLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbNDg0NDY5NjAyLC0xMTIyMzgyMjkxLDMzMT
+M0MTM3NiwtMzQyMjI3MDQ5LC0xNzY1NjI5NDcyLDEwOTk1MjU4
+MTUsMTMyMjk1NTgwOCw4ODUxNTk3NDIsNzMwOTk4MTE2XX0=
 -->
