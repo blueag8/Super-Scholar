@@ -8,6 +8,8 @@ Do you know your Marvel vs DC superheroes and villains?
 Deployed Game [Here]
 [https://blueag8.github.io/Super-Scholar/index.html](https://blueag8.github.io/Super-Scholar/index.html)
 
+GitHub Repository [Here]
+
 
 This is an Interactive front-end project.
 Technologies used for this project include
@@ -159,7 +161,7 @@ Blog-
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzODcwNTQzMCw0ODQ0Njk2MDIsLTExMj
+eyJoaXN0b3J5IjpbMTg1ODcxODIzNSw0ODQ0Njk2MDIsLTExMj
 IzODIyOTEsMzMxMzQxMzc2LC0zNDIyMjcwNDksLTE3NjU2Mjk0
 NzIsMTA5OTUyNTgxNSwxMzIyOTU1ODA4LDg4NTE1OTc0Miw3Mz
 A5OTgxMTZdfQ==
