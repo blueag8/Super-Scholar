@@ -78,14 +78,17 @@ Github
 
 **Testing**
 
+Testing was achieved through using DevTools and the console.log.  In addition I found it helpful to use the TryIt e
+*Bugs*
+appeared fine on Honor Android phone but on iPhone the play button is almost transparent.
+
+Player can still activate get data and get score before the timer starts.
 
 **Deployment**
 Github
 
-Bugs
-appeared fine on Honor Android phone but on iPhone the play button is almost transparent.
 
-Player can still activate get data and get score before the timer starts.
+
 
 
 # Credits
@@ -93,6 +96,7 @@ Player can still activate get data and get score before the timer starts.
 
 [https://www.kaggle.com/fivethirtyeight/fivethirtyeight-comic-characters-dataset/version/107](https://www.kaggle.com/fivethirtyeight/fivethirtyeight-comic-characters-dataset/version/107)
 
+**Balsamiq**
 Wireframes produced using balsamiq wireframes
 [https://balsamiq.com/](https://balsamiq.com/)
 
@@ -113,7 +117,7 @@ https://stackoverflow.com/
 https://www.w3schools.com
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNDM5NjUzMSwtMzQyMjI3MDQ5LC0xNz
+eyJoaXN0b3J5IjpbMTAwMzI1NjQ0MCwtMzQyMjI3MDQ5LC0xNz
 Y1NjI5NDcyLDEwOTk1MjU4MTUsMTMyMjk1NTgwOCw4ODUxNTk3
 NDIsNzMwOTk4MTE2XX0=
 -->
