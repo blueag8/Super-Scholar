@@ -90,9 +90,7 @@ This I had been hoping to achieve through accessing a third party API from "Comi
 
 - Improvements on CSS include UX design for the Mobile Responsive version of the game.  Without tooltip functionality on the "cog" icon, the user may not realise that this is a link to instructions on how to play the game.
 - LeaderBoard external database.
-I had attempted to access local storage to create a leaderboard for the Game Over modal. However, I realised that the best way to store and access players previous scores would be to user 
-
-
+I had attempted to access local storage to create a leaderboard for the Game Over modal. However, I realised that the best way to store and access players previous scores would be to use an external databas perhaps something like mongoDB. Local storage is also only available locally and I would like to expand the availabilty of players and also add a ranking system. 
 
 **Version control**
 Github
@@ -170,8 +168,8 @@ Blog-
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY1NjAwOTIsLTEyNjQ5NzA2MDMsNDg0ND
-Y5NjAyLC0xMTIyMzgyMjkxLDMzMTM0MTM3NiwtMzQyMjI3MDQ5
-LC0xNzY1NjI5NDcyLDEwOTk1MjU4MTUsMTMyMjk1NTgwOCw4OD
-UxNTk3NDIsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTE1ODEwNjAwNjQsLTEyNjQ5NzA2MDMsND
+g0NDY5NjAyLC0xMTIyMzgyMjkxLDMzMTM0MTM3NiwtMzQyMjI3
+MDQ5LC0xNzY1NjI5NDcyLDEwOTk1MjU4MTUsMTMyMjk1NTgwOC
+w4ODUxNTk3NDIsNzMwOTk4MTE2XX0=
 -->
