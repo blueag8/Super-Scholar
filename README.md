@@ -89,16 +89,21 @@ Gitpod
 Testing was achieved by using DevTools and the console.log. 
 In addition, I found it helpful to use the "TryIt  Editor" provided by the W3Schools learning environments.
 
-Playing the game
+Playing the game myself and inviting family and friends to play the game and provide "User" feedback.
 
-*Bugs*
-1. The game appeared fine on my Android phone. However, on iPhone6  the play button is almost transparent.
+*Bugs & issues faced*
 
-2. The player can still activate get data and get a score before the timer starts, this results in the player being able to get an infinite score.
+ - [ ] 1.
+
+ The game appeared fine on my Android phone. However, on iPhone6  the play button is almost transparent.
 
 *Solution*
-3. slight tweaking of CSS.
-4. This bug was due to having onClick functionality written as inline HTML. 
+. slight tweaking of CSS.
+
+4. The player can still activate get data and get a score before the timer starts, this results in the player being able to get an infinite score.
+
+
+5. This bug was due to having onClick functionality written as inline HTML. 
 
 example:
 <input type="image" src="img/Marvel_logo.png"  value="Marvel" id="publishers"  for="Marvel"  class="col-sm-4" onclick="getData(), getScore()">
@@ -139,7 +144,7 @@ https://stackoverflow.com/
 https://www.w3schools.com
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE1MzkxODc5LDMzMTM0MTM3NiwtMzQyMj
-I3MDQ5LC0xNzY1NjI5NDcyLDEwOTk1MjU4MTUsMTMyMjk1NTgw
-OCw4ODUxNTk3NDIsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTU0Mzg0NDMyMCwzMzEzNDEzNzYsLTM0Mj
+IyNzA0OSwtMTc2NTYyOTQ3MiwxMDk5NTI1ODE1LDEzMjI5NTU4
+MDgsODg1MTU5NzQyLDczMDk5ODExNl19
 -->
