@@ -146,13 +146,15 @@ Keywords-
 [https://github.com/auxfuse/Milestone2](https://github.com/auxfuse/Milestone2)
 Stackoverflow-[https://stackoverflow.com/questions/29022829/increment-score-using-javascript](https://stackoverflow.com/questions/29022829/increment-score-using-javascript)
 
+[https://stackoverflow.com/questions/8710442/how-to-specify-multiple-conditions-in-an-if-statement-in-javascript](https://stackoverflow.com/questions/8710442/how-to-specify-multiple-conditions-in-an-if-statement-in-javascript)
+
 W3Schools-
 https://www.w3schools.com
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjIzODIyOTEsMzMxMzQxMzc2LC0zND
-IyMjcwNDksLTE3NjU2Mjk0NzIsMTA5OTUyNTgxNSwxMzIyOTU1
-ODA4LDg4NTE1OTc0Miw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTYxMjA1MTY3MCwtMTEyMjM4MjI5MSwzMz
+EzNDEzNzYsLTM0MjIyNzA0OSwtMTc2NTYyOTQ3MiwxMDk5NTI1
+ODE1LDEzMjI5NTU4MDgsODg1MTU5NzQyLDczMDk5ODExNl19
 -->
