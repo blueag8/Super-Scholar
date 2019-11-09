@@ -73,12 +73,16 @@ Scoreboard
 **Future Features to Implement**
 Difficulty levels perhaps this can be achieved by including characters that are least known or grouped by popularity.
 
+A larger database of characters.  This I had been hoping to acheive through acce
+
 **Version control**
 Github
+Gitpod
 
 **Testing**
 
-Testing was achieved through using DevTools and the console.log.  In addition I found it helpful to use the TryIt  Editor linked to the W3Schools learning environme
+Testing was achieved through using DevTools and the console.log.  In addition I found it helpful to use the TryIt  Editor linked to the W3Schools learning environments.
+
 *Bugs*
 appeared fine on Honor Android phone but on iPhone the play button is almost transparent.
 
@@ -117,7 +121,7 @@ https://stackoverflow.com/
 https://www.w3schools.com
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3OTYwNjA1NywtMzQyMjI3MDQ5LC0xNz
-Y1NjI5NDcyLDEwOTk1MjU4MTUsMTMyMjk1NTgwOCw4ODUxNTk3
-NDIsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTE3MjAzNzU5MDksLTM0MjIyNzA0OSwtMT
+c2NTYyOTQ3MiwxMDk5NTI1ODE1LDEzMjI5NTU4MDgsODg1MTU5
+NzQyLDczMDk5ODExNl19
 -->
