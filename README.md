@@ -16,7 +16,7 @@ The goal is to create a front-end web application that has interactive functiona
 
 I have decided to base my project on the Project Idea Example #2-
 Build a Memory Game.
-I also gained inspiration from a fellow students Milestone2 project "Keywords
+I also gained inspiration from a fellow students Milestone2 project "Keywords" see link in acknowledgements. 
 
 **External Users Goals**
 To have fun playing a game.
@@ -89,14 +89,10 @@ In addition, I found it helpful to use the "TryIt  Editor" provided by the W3Sch
 *Bugs*
 appeared fine on Honor Android phone but on iPhone the play button is almost transparent.
 
-Player can still activate get data and get score before the timer starts.
+Player can still activate get data and get score before the timer starts, this results in played 
 
 **Deployment**
-Github
-
-
-
-
+Deployment was actioned via Github.
 
 # Credits
 [https://comicvine.gamespot.com/api/documentation](https://comicvine.gamespot.com/api/documentation)
@@ -124,7 +120,7 @@ https://stackoverflow.com/
 https://www.w3schools.com
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzk0NTQ0OTksLTM0MjIyNzA0OSwtMT
+eyJoaXN0b3J5IjpbLTEzMzQzNDI4OTcsLTM0MjIyNzA0OSwtMT
 c2NTYyOTQ3MiwxMDk5NTI1ODE1LDEzMjI5NTU4MDgsODg1MTU5
 NzQyLDczMDk5ODExNl19
 -->
