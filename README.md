@@ -106,11 +106,13 @@ Slack- Code Institute
 
 https://github.com/taniarascia/memory/blob/master/js/script.original.JavaScript
 https://www.taniarascia.com/how-to-create-a-memory-game-super-mario-with-plain-javascript/](https://www.taniarascia.com/how-to-create-a-memory-game-super-mario-with-plain-javascript/)
+[https://www.gitpod.io/blog/gitpodify/#opening-previews](https://www.gitpod.io/blog/gitpodify/#opening-previews)
+
 
 https://www.w3schools.com
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MjIyNzA0OSwtMTc2NTYyOTQ3MiwxMD
-k5NTI1ODE1LDEzMjI5NTU4MDgsODg1MTU5NzQyLDczMDk5ODEx
-Nl19
+eyJoaXN0b3J5IjpbNTA1NDY3Nzk4LC0zNDIyMjcwNDksLTE3Nj
+U2Mjk0NzIsMTA5OTUyNTgxNSwxMzIyOTU1ODA4LDg4NTE1OTc0
+Miw3MzA5OTgxMTZdfQ==
 -->
