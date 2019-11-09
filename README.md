@@ -128,12 +128,12 @@ Deployment was actioned via Github.
 [https://www.kaggle.com/fivethirtyeight/fivethirtyeight-comic-characters-dataset/version/107](https://www.kaggle.com/fivethirtyeight/fivethirtyeight-comic-characters-dataset/version/107)
 
 **Balsamiq**
-Wireframes produced using Balsamiq wireframes
+**Wireframes** produced using Balsamiq wireframes
 [https://balsamiq.com/](https://balsamiq.com/)
 
 ## Acknowledgements
 
-Mentor Antonio Rodriguez
+**Mentor Antonio Rodriguez**
 Code Institute Tutorials
 Slack- Code Institute
 
@@ -141,15 +141,19 @@ Slack- Code Institute
 Tania Rascia-
 https://github.com/taniarascia/memory/blob/master/js/script.original.JavaScript
 (https://www.taniarascia.com/how-to-create-a-memory-game-super-mario-with-plain-javascript/)
--Gitpodify
+Gitpodify-
 [https://www.gitpod.io/blog/gitpodify/#opening-previews](https://www.gitpod.io/blog/gitpodify/#opening-previews)
--Keywords
+Keywords-
 [https://github.com/auxfuse/Milestone2](https://github.com/auxfuse/Milestone2)
 Stackoverflow-[https://stackoverflow.com/questions/29022829/increment-score-using-javascript](https://stackoverflow.com/questions/29022829/increment-score-using-javascript)
+
+W3Schools-
 https://www.w3schools.com
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyODY2MTgyOCwzMzEzNDEzNzYsLTM0Mj
-IyNzA0OSwtMTc2NTYyOTQ3MiwxMDk5NTI1ODE1LDEzMjI5NTU4
-MDgsODg1MTU5NzQyLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbOTE5MzUyNTMwLDMzMTM0MTM3NiwtMzQyMj
+I3MDQ5LC0xNzY1NjI5NDcyLDEwOTk1MjU4MTUsMTMyMjk1NTgw
+OCw4ODUxNTk3NDIsNzMwOTk4MTE2XX0=
 -->
