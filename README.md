@@ -16,6 +16,7 @@ The goal is to create a front-end web application that has interactive functiona
 
 I have decided to base my project on the Project Idea Example #2-
 Build a Memory Game.
+I also gained inspiration from a fellow students Milestone2 project "Keywords
 
 **External Users Goals**
 To have fun playing a game.
@@ -123,7 +124,7 @@ https://stackoverflow.com/
 https://www.w3schools.com
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI2MzAwNDA2LC0zNDIyMjcwNDksLTE3Nj
-U2Mjk0NzIsMTA5OTUyNTgxNSwxMzIyOTU1ODA4LDg4NTE1OTc0
-Miw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTIxMzk0NTQ0OTksLTM0MjIyNzA0OSwtMT
+c2NTYyOTQ3MiwxMDk5NTI1ODE1LDEzMjI5NTU4MDgsODg1MTU5
+NzQyLDczMDk5ODExNl19
 -->
