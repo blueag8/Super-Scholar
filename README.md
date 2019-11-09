@@ -39,8 +39,8 @@ Left Button (Marvel)
 Right Button (DC)
 Score (10 point increments)
 Game Over Modal
-	Scoreboard
-	Play again button
+Scoreboard
+	-Play again button
 
 Functionality
 	Help Modal Pop Up on Click
@@ -49,7 +49,7 @@ Functionality
 	Click left if Character is Marval
 	Click Right if Character is DC
 	If Selection is correct append 10+ score
-	If correct card flash blue
+	If correct card flash green
 	If wrong card flash red
 	GameOver Modal triggered on last
 	response for card 20
@@ -82,7 +82,8 @@ Gitpod
 
 **Testing**
 
-Testing was achieved through using DevTools and the console.log.  In addition I found it helpful to use the TryIt  Editor linked to the W3Schools learning environments.
+Testing was achieved through using DevTools and the console.log. 
+In addition, I found it helpful to use the "TryIt  Editor" provided by the W3Schools learning environments.
 
 *Bugs*
 appeared fine on Honor Android phone but on iPhone the play button is almost transparent.
@@ -122,7 +123,7 @@ https://stackoverflow.com/
 https://www.w3schools.com
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNzIxNzI2NCwtMzQyMjI3MDQ5LC0xNz
-Y1NjI5NDcyLDEwOTk1MjU4MTUsMTMyMjk1NTgwOCw4ODUxNTk3
-NDIsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbNDI2MzAwNDA2LC0zNDIyMjcwNDksLTE3Nj
+U2Mjk0NzIsMTA5OTUyNTgxNSwxMzIyOTU1ODA4LDg4NTE1OTc0
+Miw3MzA5OTgxMTZdfQ==
 -->
