@@ -100,6 +100,8 @@ example:
 
 This meant that regardless of whether the player/user had "clicked" play to trigger the game and timer, they were able to click on the Input and get both a score and a new card. 
 
+The solution for this was to remove the "onclick" from the HTML and add additional event listners to the var game which = d
+
 **Deployment**
 Deployment was actioned via Github.
 
@@ -129,7 +131,7 @@ https://stackoverflow.com/
 https://www.w3schools.com
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzQ3MjEzMTQsLTM0MjIyNzA0OSwtMT
-c2NTYyOTQ3MiwxMDk5NTI1ODE1LDEzMjI5NTU4MDgsODg1MTU5
-NzQyLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMTAzNzA0NDI3NywtMzQyMjI3MDQ5LC0xNz
+Y1NjI5NDcyLDEwOTk1MjU4MTUsMTMyMjk1NTgwOCw4ODUxNTk3
+NDIsNzMwOTk4MTE2XX0=
 -->
