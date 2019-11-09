@@ -93,7 +93,7 @@ This I had been hoping to achieve through accessing a third party API from "Comi
 I had attempted to access local storage to create a leaderboard for the Game Over modal. However, I realised that the best way to store and access players previous scores would be to use an external database perhaps something like MongoDB. Local storage is also only available locally and I would like to expand the availability of players and also add a ranking system. 
 
 **Version control**
-Github
+Github,
 Gitpod
 
 **Testing**
@@ -168,8 +168,8 @@ Blog-
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI2NjAzNzQyLC0xMjY0OTcwNjAzLDQ4ND
-Q2OTYwMiwtMTEyMjM4MjI5MSwzMzEzNDEzNzYsLTM0MjIyNzA0
-OSwtMTc2NTYyOTQ3MiwxMDk5NTI1ODE1LDEzMjI5NTU4MDgsOD
-g1MTU5NzQyLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTg1MTQ3NjU1OCwtMTI2NDk3MDYwMyw0OD
+Q0Njk2MDIsLTExMjIzODIyOTEsMzMxMzQxMzc2LC0zNDIyMjcw
+NDksLTE3NjU2Mjk0NzIsMTA5OTUyNTgxNSwxMzIyOTU1ODA4LD
+g4NTE1OTc0Miw3MzA5OTgxMTZdfQ==
 -->
