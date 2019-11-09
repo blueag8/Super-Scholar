@@ -88,7 +88,8 @@ Game Over Modal /Leader Board
 - A larger database of characters.  
 This I had been hoping to achieve through accessing a third party API from "ComicVine"(see link in credits). I found it very difficult to successfully connect using a key. So due to time restrictions, I attempted downloading a JSON format from another external database within "Kaggle".  This too also proved difficult, so I decided to include a local database to access for characters.
 
-
+- Improvements on CSS include UX design for the Mobile Responsive version of the game.  Without tooltip functionality on the "cog" icon, the user may not realise that this is a link to instructions on how to play the game.
+- 
 
 
 
@@ -168,8 +169,8 @@ Blog-
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMDc5MzE4NiwtMTI2NDk3MDYwMyw0OD
-Q0Njk2MDIsLTExMjIzODIyOTEsMzMxMzQxMzc2LC0zNDIyMjcw
-NDksLTE3NjU2Mjk0NzIsMTA5OTUyNTgxNSwxMzIyOTU1ODA4LD
-g4NTE1OTc0Miw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTExMjE3NzA5NjAsLTEyNjQ5NzA2MDMsND
+g0NDY5NjAyLC0xMTIyMzgyMjkxLDMzMTM0MTM3NiwtMzQyMjI3
+MDQ5LC0xNzY1NjI5NDcyLDEwOTk1MjU4MTUsMTMyMjk1NTgwOC
+w4ODUxNTk3NDIsNzMwOTk4MTE2XX0=
 -->
