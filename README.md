@@ -29,7 +29,7 @@ To have fun playing the game and build a game other's enjoy playing.
 To play a visually appealing game. Easy to navigate and provides clear instructions on how to play. As a player, I want to know how I am progressing so I would like feedback such as a scoreboard.
 
 **The Plan**
-I would like to connect to a third party API to have access to an existing database. 
+I would like to connect to a third-party API to have access to an existing database. 
 
 This is a checklist of what I would like to implement:
 
@@ -86,9 +86,7 @@ Github
 Gitpod
 
 **Testing**
-Testing was achieved by using DevTools and the console.log. 
-In addition, I found it helpful to use the "TryIt  Editor" provided by the W3Schools learning environments.
-
+Testing was achieved by using DevTools and the console log.  I also found it helpful to use the "TryIt  Editor" provided by W3School.
 Playing the game myself and inviting family and friends to play the game and provide "User" feedback.
 
 *Bugs & issues faced*
@@ -157,7 +155,8 @@ Blog-
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg0NDY5NjAyLC0xMTIyMzgyMjkxLDMzMT
-M0MTM3NiwtMzQyMjI3MDQ5LC0xNzY1NjI5NDcyLDEwOTk1MjU4
-MTUsMTMyMjk1NTgwOCw4ODUxNTk3NDIsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTA2NDExMjgxLDQ4NDQ2OTYwMiwtMTEyMj
+M4MjI5MSwzMzEzNDEzNzYsLTM0MjIyNzA0OSwtMTc2NTYyOTQ3
+MiwxMDk5NTI1ODE1LDEzMjI5NTU4MDgsODg1MTU5NzQyLDczMD
+k5ODExNl19
 -->
