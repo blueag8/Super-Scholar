@@ -106,11 +106,8 @@ Within the "getScore" function I had to add a local function:
 
 document.getElementById("publishers");
 onclick  =  function() {
-
 userInput  =  event.target.value;
-
 console.log(userInput);
-
 **Deployment**
 Deployment was actioned via Github.
 
@@ -140,7 +137,7 @@ https://stackoverflow.com/
 https://www.w3schools.com
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNzk4NzI2NiwtMzQyMjI3MDQ5LC0xNz
-Y1NjI5NDcyLDEwOTk1MjU4MTUsMTMyMjk1NTgwOCw4ODUxNTk3
-NDIsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbODk1NTI4MTQ4LC0zNDIyMjcwNDksLTE3Nj
+U2Mjk0NzIsMTA5OTUyNTgxNSwxMzIyOTU1ODA4LDg4NTE1OTc0
+Miw3MzA5OTgxMTZdfQ==
 -->
