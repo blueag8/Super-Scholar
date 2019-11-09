@@ -5,6 +5,12 @@ Do you know your Marvel vs DC superheroes and villains?
 
 ## The Project
 
+Deployed Game [Here]
+[https://blueag8.github.io/Super-Scholar/index.html](https://blueag8.github.io/Super-Scholar/index.html)
+
+GitHub Repository [Here]
+[https://github.com/blueag8/Super-Scholar](https://github.com/blueag8/Super-Scholar)
+
 This is an Interactive front-end project.
 Technologies used for this project include
 
@@ -17,6 +23,8 @@ The goal is to create a front-end web application that has interactive functiona
 I have decided to base my project on the Project Idea Example #2-
 Build a Memory Game.
 
+I also gained inspiration from a fellow student's Milestone2 project "Keywords" see link in acknowledgements. 
+
 **External Users Goals**
 To have fun playing a game.
 
@@ -27,6 +35,9 @@ To have fun playing the game and build a game other's enjoy playing.
 To play a visually appealing game. Easy to navigate and provides clear instructions on how to play. As a player, I want to know how I am progressing so I would like feedback such as a scoreboard.
 
 **The Plan**
+I would like to connect to a third-party API to have access to an existing database. 
+
+This is a checklist of what I would like to implement:
 
 *Main Page*
 HTML/CSS
@@ -39,8 +50,8 @@ Left Button (Marvel)
 Right Button (DC)
 Score (10 point increments)
 Game Over Modal
-	Scoreboard
-	Play again button
+Scoreboard
+	-Play again button
 
 Functionality
 	Help Modal Pop Up on Click
@@ -49,7 +60,7 @@ Functionality
 	Click left if Character is Marval
 	Click Right if Character is DC
 	If Selection is correct append 10+ score
-	If correct card flash blue
+	If correct card flash green
 	If wrong card flash red
 	GameOver Modal triggered on last
 	response for card 20
@@ -69,48 +80,96 @@ Help/Instructions
 Score
 Time Limit
 Scoreboard
+Game Over Modal /Leader Board
 
 **Future Features to Implement**
-Difficulty levels perhaps this can be achieved by including characters that are least known or grouped by popularity.
+- Add Difficulty levels. Perhaps this can be achieved by including characters that are least known or grouped by popularity.
+
+- A larger database of characters.  
+This I had been hoping to achieve through accessing a third party API from "ComicVine"(see link in credits). I found it very difficult to successfully connect using a key. So due to time restrictions, I attempted downloading a JSON format from another external database within "Kaggle".  This too also proved difficult, so I decided to include a local database to access for characters.
+
+- Improvements on CSS include UX design for the Mobile Responsive version of the game.  Without tooltip functionality on the "cog" icon, the user may not realise that this is a link to instructions on how to play the game.
+- LeaderBoard external database.
+I had attempted to access local storage to create a leaderboard for the Game Over modal. However, I realised that the best way to store and access players previous scores would be to use an external database perhaps something like MongoDB. Local storage is also only available locally and I would like to expand the availability of players and also add a ranking system. 
 
 **Version control**
-Github
+Github,
+Gitpod
 
 **Testing**
+Testing was achieved by using DevTools and the console log.  I also found it helpful to use the "TryIt  Editor" provided by W3School.
+Playing the game myself and inviting family and friends to play the game and provide "User" feedback.
 
+*Bugs & issues faced*
+
+ - The game appeared fine on my Android phone. However, on iPhone6  the play button is almost transparent.
+
+	*Solution*
+	- slight tweaking of CSS.
+	
+- The player can still activate get data and get a score before the timer starts, this results in the player being able to get an infinite score.
+
+   *Solution*
+    -  This bug was due to having onClick functionality written as inline HTML. 
+
+       example:
+   
+`<input type="image"        src="img/Marvel_logo.png"  value="Marvel" id="publishers"  for="Marvel"  class="col-sm-4" onclick="getData(), getScore()"
+` >
+
+   This meant that regardless of whether the player/user had "clicked" *play* (event to trigger the game and timer), they were able to click on the Input and get both a score and a new card. 
+
+The solution for this was to remove the "onclick" from the HTML and add additional event listners to the var game which = document.getElementById("playBtn").
+
+Within the "getScore" function I had to add a local function:
+
+    document.getElementById("publishers"); onclick  =  function() { userInput  =  event.target.value; console.log(userInput);
+
+- 
 
 **Deployment**
-Github
-
-Bugs
-appeared fine on Honor Android phone but on iPhone the play button is almost transparent.
-
-Player can still activate get data and get score before the timer starts.
-
+Deployment was actioned via Github.
 
 # Credits
+
+Images accessed via connections- 
 [https://comicvine.gamespot.com/api/documentation](https://comicvine.gamespot.com/api/documentation)
 
 [https://www.kaggle.com/fivethirtyeight/fivethirtyeight-comic-characters-dataset/version/107](https://www.kaggle.com/fivethirtyeight/fivethirtyeight-comic-characters-dataset/version/107)
 
-Wireframes produced using balsamiq wireframes
+**Balsamiq**
+**Wireframes** produced using Balsamiq wireframes
 [https://balsamiq.com/](https://balsamiq.com/)
 
 ## Acknowledgements
 
-Mentor Antonio Rodriguez
+**Mentor Antonio Rodriguez**
 Code Institute Tutorials
 Slack- Code Institute
 
 ## References
-
+Tania Rascia-
 https://github.com/taniarascia/memory/blob/master/js/script.original.JavaScript
-https://www.taniarascia.com/how-to-create-a-memory-game-super-mario-with-plain-javascript/](https://www.taniarascia.com/how-to-create-a-memory-game-super-mario-with-plain-javascript/)
+(https://www.taniarascia.com/how-to-create-a-memory-game-super-mario-with-plain-javascript/)
+Gitpodify-
+[https://www.gitpod.io/blog/gitpodify/#opening-previews](https://www.gitpod.io/blog/gitpodify/#opening-previews)
+Keywords-
+[https://github.com/auxfuse/Milestone2](https://github.com/auxfuse/Milestone2)
+Stackoverflow-[https://stackoverflow.com/questions/29022829/increment-score-using-javascript](https://stackoverflow.com/questions/29022829/increment-score-using-javascript)
 
+[https://stackoverflow.com/questions/8710442/how-to-specify-multiple-conditions-in-an-if-statement-in-javascript](https://stackoverflow.com/questions/8710442/how-to-specify-multiple-conditions-in-an-if-statement-in-javascript)
+
+W3Schools-
 https://www.w3schools.com
+
+Blog-
+[https://josephephillips.com/blog/how-to-use-comic-vine-api-part1](https://josephephillips.com/blog/how-to-use-comic-vine-api-part1)
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MjIyNzA0OSwtMTc2NTYyOTQ3MiwxMD
-k5NTI1ODE1LDEzMjI5NTU4MDgsODg1MTU5NzQyLDczMDk5ODEx
-Nl19
+eyJoaXN0b3J5IjpbLTg1MTQ3NjU1OCwtMTI2NDk3MDYwMyw0OD
+Q0Njk2MDIsLTExMjIzODIyOTEsMzMxMzQxMzc2LC0zNDIyMjcw
+NDksLTE3NjU2Mjk0NzIsMTA5OTUyNTgxNSwxMzIyOTU1ODA4LD
+g4NTE1OTc0Miw3MzA5OTgxMTZdfQ==
 -->
