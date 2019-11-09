@@ -114,7 +114,10 @@ Playing the game myself and inviting family and friends to play the game and pro
 The solution for this was to remove the "onclick" from the HTML and add additional event listners to the var game which = document.getElementById("playBtn").
 
 Within the "getScore" function I had to add a local function:
-    
+
+    document.getElementById("publishers"); onclick  =  function() { userInput  =  event.target.value; console.log(userInput);
+
+- 
 
 **Deployment**
 Deployment was actioned via Github.
@@ -145,7 +148,7 @@ https://stackoverflow.com/
 https://www.w3schools.com
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDE1Njk1NTksMzMxMzQxMzc2LC0zND
-IyMjcwNDksLTE3NjU2Mjk0NzIsMTA5OTUyNTgxNSwxMzIyOTU1
-ODA4LDg4NTE1OTc0Miw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTE2NzQzMjAxOSwzMzEzNDEzNzYsLTM0Mj
+IyNzA0OSwtMTc2NTYyOTQ3MiwxMDk5NTI1ODE1LDEzMjI5NTU4
+MDgsODg1MTU5NzQyLDczMDk5ODExNl19
 -->
