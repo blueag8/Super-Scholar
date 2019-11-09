@@ -105,15 +105,16 @@ Playing the game myself and inviting family and friends to play the game and pro
    *Solution*
     -  This bug was due to having onClick functionality written as inline HTML. 
 
-example:
-<input type="image" src="img/Marvel_logo.png"  value="Marvel" id="publishers"  for="Marvel"  class="col-sm-4" onclick="getData(), getScore()">
+       example:
+   
+`<input type="image"        src="img/Marvel_logo.png"  value="Marvel" id="publishers"  for="Marvel"  class="col-sm-4" onclick="getData(), getScore()"here` >
 
-This meant that regardless of whether the player/user had "clicked" play to trigger the game and timer, they were able to click on the Input and get both a score and a new card. 
+   This meant that regardless of whether the player/user had "clicked" play to trigger the game and timer, they were able to click on the Input and get both a score and a new card. 
 
 The solution for this was to remove the "onclick" from the HTML and add additional event listners to the var game which = document.getElementById("playBtn").
 
 Within the "getScore" function I had to add a local function:
-    document.getElementById("publishers"); onclick  =  function() { userInput  =  event.target.value; console.log(userInput);
+    
 
 **Deployment**
 Deployment was actioned via Github.
@@ -144,7 +145,7 @@ https://stackoverflow.com/
 https://www.w3schools.com
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcyNjU2MDU0LDMzMTM0MTM3NiwtMzQyMj
-I3MDQ5LC0xNzY1NjI5NDcyLDEwOTk1MjU4MTUsMTMyMjk1NTgw
-OCw4ODUxNTk3NDIsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTEyMDE1Njk1NTksMzMxMzQxMzc2LC0zND
+IyMjcwNDksLTE3NjU2Mjk0NzIsMTA5OTUyNTgxNSwxMzIyOTU1
+ODA4LDg4NTE1OTc0Miw3MzA5OTgxMTZdfQ==
 -->
