@@ -127,7 +127,7 @@ Deployment was actioned via Github.
 
 # Credits
 
-Images access
+Images accessed via connections- 
 [https://comicvine.gamespot.com/api/documentation](https://comicvine.gamespot.com/api/documentation)
 
 [https://www.kaggle.com/fivethirtyeight/fivethirtyeight-comic-characters-dataset/version/107](https://www.kaggle.com/fivethirtyeight/fivethirtyeight-comic-characters-dataset/version/107)
@@ -163,8 +163,8 @@ Blog-
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0Nzg5NTQ4OCw0ODQ0Njk2MDIsLTExMj
-IzODIyOTEsMzMxMzQxMzc2LC0zNDIyMjcwNDksLTE3NjU2Mjk0
-NzIsMTA5OTUyNTgxNSwxMzIyOTU1ODA4LDg4NTE1OTc0Miw3Mz
-A5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTEyNjQ5NzA2MDMsNDg0NDY5NjAyLC0xMT
+IyMzgyMjkxLDMzMTM0MTM3NiwtMzQyMjI3MDQ5LC0xNzY1NjI5
+NDcyLDEwOTk1MjU4MTUsMTMyMjk1NTgwOCw4ODUxNTk3NDIsNz
+MwOTk4MTE2XX0=
 -->
