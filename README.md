@@ -83,9 +83,14 @@ Scoreboard
 Game Over Modal /Leader Board
 
 **Future Features to Implement**
-Difficulty levels perhaps this can be achieved by including characters that are least known or grouped by popularity.
+- Add Difficulty levels. Perhaps this can be achieved by including characters that are least known or grouped by popularity.
 
-A larger database of characters.  This I had been hoping to achieve through accessing a third party API from "ComicVine"(see link in credits). I found it very difficult to successfully connect using a key. So due to time restrictions, I attempted downloading a JSON format from another external database within "Kaggle".  This too also proved difficult, so I decided to include a local database to access for characters.
+- A larger database of characters.  
+This I had been hoping to achieve through accessing a third party API from "ComicVine"(see link in credits). I found it very difficult to successfully connect using a key. So due to time restrictions, I attempted downloading a JSON format from another external database within "Kaggle".  This too also proved difficult, so I decided to include a local database to access for characters.
+
+
+
+
 
 **Version control**
 Github
@@ -163,8 +168,8 @@ Blog-
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjQ5NzA2MDMsNDg0NDY5NjAyLC0xMT
-IyMzgyMjkxLDMzMTM0MTM3NiwtMzQyMjI3MDQ5LC0xNzY1NjI5
-NDcyLDEwOTk1MjU4MTUsMTMyMjk1NTgwOCw4ODUxNTk3NDIsNz
-MwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTYxMDc5MzE4NiwtMTI2NDk3MDYwMyw0OD
+Q0Njk2MDIsLTExMjIzODIyOTEsMzMxMzQxMzc2LC0zNDIyMjcw
+NDksLTE3NjU2Mjk0NzIsMTA5OTUyNTgxNSwxMzIyOTU1ODA4LD
+g4NTE1OTc0Miw3MzA5OTgxMTZdfQ==
 -->
