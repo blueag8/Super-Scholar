@@ -95,6 +95,8 @@ In addition, I found it helpful to use the "TryIt  Editor" provided by the W3Sch
 3. slight tweaking of css.
 4. This bug was due to having onClick functionality written as inline HTML. 
 
+<input type="image" id="publishers" value" onclick="getData(), getScore()">
+
 This meant that regardless of whether the player/user had "clicked" play to trigger the game and timer, they were able to click on the Input and get both a score and a new card. 
 
 **Deployment**
@@ -126,7 +128,7 @@ https://stackoverflow.com/
 https://www.w3schools.com
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUzMjMxMTAzLC0zNDIyMjcwNDksLTE3Nj
-U2Mjk0NzIsMTA5OTUyNTgxNSwxMzIyOTU1ODA4LDg4NTE1OTc0
-Miw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTc0ODM2OTUwMywtMzQyMjI3MDQ5LC0xNz
+Y1NjI5NDcyLDEwOTk1MjU4MTUsMTMyMjk1NTgwOCw4ODUxNTk3
+NDIsNzMwOTk4MTE2XX0=
 -->
