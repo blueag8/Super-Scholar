@@ -103,11 +103,8 @@ This meant that regardless of whether the player/user had "clicked" play to trig
 The solution for this was to remove the "onclick" from the HTML and add additional event listners to the var game which = document.getElementById("playBtn").
 
 Within the "getScore" function I had to add a local function:
+    document.getElementById("publishers"); onclick  =  function() { userInput  =  event.target.value; console.log(userInput);
 
-document.getElementById("publishers");
-onclick  =  function() {
-userInput  =  event.target.value;
-console.log(userInput);
 **Deployment**
 Deployment was actioned via Github.
 
@@ -137,7 +134,7 @@ https://stackoverflow.com/
 https://www.w3schools.com
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk1NTI4MTQ4LC0zNDIyMjcwNDksLTE3Nj
+eyJoaXN0b3J5IjpbMzMxMzQxMzc2LC0zNDIyMjcwNDksLTE3Nj
 U2Mjk0NzIsMTA5OTUyNTgxNSwxMzIyOTU1ODA4LDg4NTE1OTc0
 Miw3MzA5OTgxMTZdfQ==
 -->
