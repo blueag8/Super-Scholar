@@ -92,7 +92,8 @@ In addition, I found it helpful to use the "TryIt  Editor" provided by the W3Sch
 2. Player can still activate get data and get score before the timer starts, this results in player being able to get an infinite score.
 
 *Solution*
-1. slight tweakin
+1. slight tweaking of css.
+2. This bug was due to having onClick functionality written as inline HTML 
 
 **Deployment**
 Deployment was actioned via Github.
@@ -123,7 +124,7 @@ https://stackoverflow.com/
 https://www.w3schools.com
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NDk5NTg5LC0zNDIyMjcwNDksLTE3Nj
+eyJoaXN0b3J5IjpbMjYwMDgwNDMwLC0zNDIyMjcwNDksLTE3Nj
 U2Mjk0NzIsMTA5OTUyNTgxNSwxMzIyOTU1ODA4LDg4NTE1OTc0
 Miw3MzA5OTgxMTZdfQ==
 -->
