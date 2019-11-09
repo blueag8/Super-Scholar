@@ -11,8 +11,6 @@ Deployed Game [Here]
 GitHub Repository [Here]
 [https://github.com/blueag8/Super-Scholar](https://github.com/blueag8/Super-Scholar)
 
-Access to workspace for Assesor [Here]
-
 This is an Interactive front-end project.
 Technologies used for this project include
 
@@ -128,6 +126,8 @@ Within the "getScore" function I had to add a local function:
 Deployment was actioned via Github.
 
 # Credits
+
+Images access
 [https://comicvine.gamespot.com/api/documentation](https://comicvine.gamespot.com/api/documentation)
 
 [https://www.kaggle.com/fivethirtyeight/fivethirtyeight-comic-characters-dataset/version/107](https://www.kaggle.com/fivethirtyeight/fivethirtyeight-comic-characters-dataset/version/107)
@@ -163,7 +163,7 @@ Blog-
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDA0MTY4MSw0ODQ0Njk2MDIsLTExMj
+eyJoaXN0b3J5IjpbLTc0Nzg5NTQ4OCw0ODQ0Njk2MDIsLTExMj
 IzODIyOTEsMzMxMzQxMzc2LC0zNDIyMjcwNDksLTE3NjU2Mjk0
 NzIsMTA5OTUyNTgxNSwxMzIyOTU1ODA4LDg4NTE1OTc0Miw3Mz
 A5OTgxMTZdfQ==
