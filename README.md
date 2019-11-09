@@ -93,17 +93,17 @@ Playing the game myself and inviting family and friends to play the game and pro
 
 *Bugs & issues faced*
 
- - [ ] 1.
+ 
 
- The game appeared fine on my Android phone. However, on iPhone6  the play button is almost transparent.
+ - The game appeared fine on my Android phone. However, on iPhone6  the play button is almost transparent.
 
-*Solution*
-. slight tweaking of CSS.
+	*Solution*
+	- slight tweaking of CSS.
+	
+- The player can still activate get data and get a score before the timer starts, this results in the player being able to get an infinite score.
 
-4. The player can still activate get data and get a score before the timer starts, this results in the player being able to get an infinite score.
-
-
-5. This bug was due to having onClick functionality written as inline HTML. 
+   *Solution*
+    -  This bug was due to having onClick functionality written as inline HTML. 
 
 example:
 <input type="image" src="img/Marvel_logo.png"  value="Marvel" id="publishers"  for="Marvel"  class="col-sm-4" onclick="getData(), getScore()">
@@ -144,7 +144,7 @@ https://stackoverflow.com/
 https://www.w3schools.com
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0Mzg0NDMyMCwzMzEzNDEzNzYsLTM0Mj
-IyNzA0OSwtMTc2NTYyOTQ3MiwxMDk5NTI1ODE1LDEzMjI5NTU4
-MDgsODg1MTU5NzQyLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbOTcyNjU2MDU0LDMzMTM0MTM3NiwtMzQyMj
+I3MDQ5LC0xNzY1NjI5NDcyLDEwOTk1MjU4MTUsMTMyMjk1NTgw
+OCw4ODUxNTk3NDIsNzMwOTk4MTE2XX0=
 -->
