@@ -16,7 +16,8 @@ The goal is to create a front-end web application that has interactive functiona
 
 I have decided to base my project on the Project Idea Example #2-
 Build a Memory Game.
-I also gained inspiration from a fellow students Milestone2 project "Keywords" see link in acknowledgements. 
+
+I also gained inspiration from a fellow student's Milestone2 project "Keywords" see link in acknowledgements. 
 
 **External Users Goals**
 To have fun playing a game.
@@ -28,7 +29,7 @@ To have fun playing the game and build a game other's enjoy playing.
 To play a visually appealing game. Easy to navigate and provides clear instructions on how to play. As a player, I want to know how I am progressing so I would like feedback such as a scoreboard.
 
 **The Plan**
-
+I would like to connect to a third party API and access a database to supply
 *Main Page*
 HTML/CSS
 Display Card
@@ -75,7 +76,7 @@ Game Over Modal /Leader Board
 **Future Features to Implement**
 Difficulty levels perhaps this can be achieved by including characters that are least known or grouped by popularity.
 
-A larger database of characters.  This I had been hoping to acheive through accessing a third party api from "ComicVine"(see link in credits). I found it very difficult to successfully connect using a key. So due to time restrictions I attempted downloading a JSON format from another external database within "Kaggle".  This too also proved difficult, so I decided to to include a local database to access for characters.
+A larger database of characters.  This I had been hoping to achieve through accessing a third party API from "ComicVine"(see link in credits). I found it very difficult to successfully connect using a key. So due to time restrictions, I attempted downloading a JSON format from another external database within "Kaggle".  This too also proved difficult, so I decided to include a local database to access for characters.
 
 **Version control**
 Github
@@ -83,16 +84,16 @@ Gitpod
 
 **Testing**
 
-Testing was achieved through using DevTools and the console.log. 
+Testing was achieved by using DevTools and the console.log. 
 In addition, I found it helpful to use the "TryIt  Editor" provided by the W3Schools learning environments.
 
 *Bugs*
-1.The game appeared fine on my Android phone. However, on iPhone6  the play button is almost transparent.
+1. The game appeared fine on my Android phone. However, on iPhone6  the play button is almost transparent.
 
-2. Player can still activate get data and get score before the timer starts, this results in player being able to get an infinite score.
+2. The player can still activate get data and get a score before the timer starts, this results in the player being able to get an infinite score.
 
 *Solution*
-3. slight tweaking of css.
+3. slight tweaking of CSS.
 4. This bug was due to having onClick functionality written as inline HTML. 
 
 example:
@@ -114,7 +115,7 @@ Deployment was actioned via Github.
 [https://www.kaggle.com/fivethirtyeight/fivethirtyeight-comic-characters-dataset/version/107](https://www.kaggle.com/fivethirtyeight/fivethirtyeight-comic-characters-dataset/version/107)
 
 **Balsamiq**
-Wireframes produced using balsamiq wireframes
+Wireframes produced using Balsamiq wireframes
 [https://balsamiq.com/](https://balsamiq.com/)
 
 ## Acknowledgements
@@ -134,7 +135,7 @@ https://stackoverflow.com/
 https://www.w3schools.com
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMxMzQxMzc2LC0zNDIyMjcwNDksLTE3Nj
-U2Mjk0NzIsMTA5OTUyNTgxNSwxMzIyOTU1ODA4LDg4NTE1OTc0
-Miw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTEwNjAzMTk4OTcsMzMxMzQxMzc2LC0zND
+IyMjcwNDksLTE3NjU2Mjk0NzIsMTA5OTUyNTgxNSwxMzIyOTU1
+ODA4LDg4NTE1OTc0Miw3MzA5OTgxMTZdfQ==
 -->
