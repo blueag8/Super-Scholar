@@ -29,7 +29,10 @@ To have fun playing the game and build a game other's enjoy playing.
 To play a visually appealing game. Easy to navigate and provides clear instructions on how to play. As a player, I want to know how I am progressing so I would like feedback such as a scoreboard.
 
 **The Plan**
-I would like to connect to a third party API and access a database to supply
+I would like to connect to a third party API to have access to an existing database. 
+
+This is a checklist of what I would like to implement:
+
 *Main Page*
 HTML/CSS
 Display Card
@@ -83,9 +86,10 @@ Github
 Gitpod
 
 **Testing**
-
 Testing was achieved by using DevTools and the console.log. 
 In addition, I found it helpful to use the "TryIt  Editor" provided by the W3Schools learning environments.
+
+Playing the game
 
 *Bugs*
 1. The game appeared fine on my Android phone. However, on iPhone6  the play button is almost transparent.
@@ -135,7 +139,7 @@ https://stackoverflow.com/
 https://www.w3schools.com
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjAzMTk4OTcsMzMxMzQxMzc2LC0zND
-IyMjcwNDksLTE3NjU2Mjk0NzIsMTA5OTUyNTgxNSwxMzIyOTU1
-ODA4LDg4NTE1OTc0Miw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbNTE1MzkxODc5LDMzMTM0MTM3NiwtMzQyMj
+I3MDQ5LC0xNzY1NjI5NDcyLDEwOTk1MjU4MTUsMTMyMjk1NTgw
+OCw4ODUxNTk3NDIsNzMwOTk4MTE2XX0=
 -->
