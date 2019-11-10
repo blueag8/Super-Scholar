@@ -130,6 +130,8 @@ Within the "getScore" function I had to add a local function:
 **Deployment**
 Deployment was actioned via Github.
 
+
+
 # Credits
 
 Images accessed via connections- 
@@ -168,8 +170,8 @@ Blog-
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MTQ3NjU1OCwtMTI2NDk3MDYwMyw0OD
-Q0Njk2MDIsLTExMjIzODIyOTEsMzMxMzQxMzc2LC0zNDIyMjcw
-NDksLTE3NjU2Mjk0NzIsMTA5OTUyNTgxNSwxMzIyOTU1ODA4LD
-g4NTE1OTc0Miw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTk4NTQ0NTg0NiwtODUxNDc2NTU4LC0xMj
+Y0OTcwNjAzLDQ4NDQ2OTYwMiwtMTEyMjM4MjI5MSwzMzEzNDEz
+NzYsLTM0MjIyNzA0OSwtMTc2NTYyOTQ3MiwxMDk5NTI1ODE1LD
+EzMjI5NTU4MDgsODg1MTU5NzQyLDczMDk5ODExNl19
 -->
