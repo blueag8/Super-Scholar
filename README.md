@@ -152,7 +152,7 @@ Push to GitHub using the command
 
 You have your first copy of Super-Scholar. 
 
-To run the development version in Gitpod use the command "python3 -m http.server 8000" (or which ever port you prefer). This will trigger a pop up that will ask you if you wish to expose the port
+To run the development version in Gitpod use the command "python3 -m http.server 8000" (or which ever port you prefer). This will trigger a pop up that will ask you if you wish to expose the port. Expose the port and on the additional modal click a selection to either "open preview" within Gitpod or "open in Browser".
 
 
 
@@ -194,9 +194,9 @@ Blog-
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU1OTE4OTYzLDE4NTkyMjA3NzYsLTg1MT
-Q3NjU1OCwtMTI2NDk3MDYwMyw0ODQ0Njk2MDIsLTExMjIzODIy
-OTEsMzMxMzQxMzc2LC0zNDIyMjcwNDksLTE3NjU2Mjk0NzIsMT
-A5OTUyNTgxNSwxMzIyOTU1ODA4LDg4NTE1OTc0Miw3MzA5OTgx
-MTZdfQ==
+eyJoaXN0b3J5IjpbLTE1NjYzMzEwNywxODU5MjIwNzc2LC04NT
+E0NzY1NTgsLTEyNjQ5NzA2MDMsNDg0NDY5NjAyLC0xMTIyMzgy
+MjkxLDMzMTM0MTM3NiwtMzQyMjI3MDQ5LC0xNzY1NjI5NDcyLD
+EwOTk1MjU4MTUsMTMyMjk1NTgwOCw4ODUxNTk3NDIsNzMwOTk4
+MTE2XX0=
 -->
