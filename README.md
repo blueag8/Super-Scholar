@@ -105,6 +105,9 @@ Gitpod
 Testing was achieved by using DevTools and the console log.  I also found it helpful to use the "TryIt  Editor" provided by W3School.
 Playing the game myself and inviting family and friends to play the game and provide "User" feedback.
 
+
+
+
 *Bugs & issues faced*
 
  - The game appeared fine on my Android phone. However, on iPhone6  the play button is almost transparent.
@@ -201,7 +204,7 @@ Blog-
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyOTc5OTIyOCwxODU5MjIwNzc2LC04NT
+eyJoaXN0b3J5IjpbMjEzOTEzMjg1OCwxODU5MjIwNzc2LC04NT
 E0NzY1NTgsLTEyNjQ5NzA2MDMsNDg0NDY5NjAyLC0xMTIyMzgy
 MjkxLDMzMTM0MTM3NiwtMzQyMjI3MDQ5LC0xNzY1NjI5NDcyLD
 EwOTk1MjU4MTUsMTMyMjk1NTgwOCw4ODUxNTk3NDIsNzMwOTk4
