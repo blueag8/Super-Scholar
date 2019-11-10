@@ -212,13 +212,18 @@ Bootstrap
 JSHint
 [https://jshint.com/](https://jshint.com/)
 
-W3C Validator\
+W3C Validator
+[https://validator.w3.org/](https://validator.w3.org/)
+
+CDNJS
+[https://cdnjs.com/](https://cdnjs.com/)
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MzIwMzEzMywxODU5MjIwNzc2LC04NT
-E0NzY1NTgsLTEyNjQ5NzA2MDMsNDg0NDY5NjAyLC0xMTIyMzgy
-MjkxLDMzMTM0MTM3NiwtMzQyMjI3MDQ5LC0xNzY1NjI5NDcyLD
-EwOTk1MjU4MTUsMTMyMjk1NTgwOCw4ODUxNTk3NDIsNzMwOTk4
-MTE2XX0=
+eyJoaXN0b3J5IjpbLTEzNjM4OTk5NjEsMTg1OTIyMDc3NiwtOD
+UxNDc2NTU4LC0xMjY0OTcwNjAzLDQ4NDQ2OTYwMiwtMTEyMjM4
+MjI5MSwzMzEzNDEzNzYsLTM0MjIyNzA0OSwtMTc2NTYyOTQ3Mi
+wxMDk5NTI1ODE1LDEzMjI5NTU4MDgsODg1MTU5NzQyLDczMDk5
+ODExNl19
 -->
