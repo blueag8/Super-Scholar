@@ -14,9 +14,13 @@ GitHub Repository [Here]
 This is an Interactive front-end project.
 Technologies used for this project include
 
--HTML
--CSS
--Javascript
+- HTML
+- CSS
+- Javascript
+- Imported JavaScript & JQuery- For Modal.
+- Gitpod
+- Github
+- Chrome DevTools
 
 The goal is to create a front-end web application that has interactive functionality and "Use[s] JavaScript to have the site produce relevant responses dependent on users' actions".
 
@@ -196,9 +200,9 @@ Blog-
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzM3NjM3ODEsMTg1OTIyMDc3NiwtOD
-UxNDc2NTU4LC0xMjY0OTcwNjAzLDQ4NDQ2OTYwMiwtMTEyMjM4
-MjI5MSwzMzEzNDEzNzYsLTM0MjIyNzA0OSwtMTc2NTYyOTQ3Mi
-wxMDk5NTI1ODE1LDEzMjI5NTU4MDgsODg1MTU5NzQyLDczMDk5
-ODExNl19
+eyJoaXN0b3J5IjpbMzQ3MDc3MTMzLDE4NTkyMjA3NzYsLTg1MT
+Q3NjU1OCwtMTI2NDk3MDYwMyw0ODQ0Njk2MDIsLTExMjIzODIy
+OTEsMzMxMzQxMzc2LC0zNDIyMjcwNDksLTE3NjU2Mjk0NzIsMT
+A5OTUyNTgxNSwxMzIyOTU1ODA4LDg4NTE1OTc0Miw3MzA5OTgx
+MTZdfQ==
 -->
