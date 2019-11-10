@@ -130,7 +130,9 @@ Within the "getScore" function I had to add a local function:
 **Deployment**
 Deployment was actioned via Github.
 
-
+**Installation**
+Requirements
+Python3 
 
 # Credits
 
@@ -170,8 +172,8 @@ Blog-
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NTQ0NTg0NiwtODUxNDc2NTU4LC0xMj
-Y0OTcwNjAzLDQ4NDQ2OTYwMiwtMTEyMjM4MjI5MSwzMzEzNDEz
-NzYsLTM0MjIyNzA0OSwtMTc2NTYyOTQ3MiwxMDk5NTI1ODE1LD
-EzMjI5NTU4MDgsODg1MTU5NzQyLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTE0MzEzNjQwODMsLTg1MTQ3NjU1OCwtMT
+I2NDk3MDYwMyw0ODQ0Njk2MDIsLTExMjIzODIyOTEsMzMxMzQx
+Mzc2LC0zNDIyMjcwNDksLTE3NjU2Mjk0NzIsMTA5OTUyNTgxNS
+wxMzIyOTU1ODA4LDg4NTE1OTc0Miw3MzA5OTgxMTZdfQ==
 -->
