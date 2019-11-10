@@ -20,7 +20,8 @@ Technologies used for this project include
 - Imported JavaScript & JQuery- For Modal.
 - Gitpod
 - Github
-- Chrome DevTools
+- Chrome DevTools - used extensively for adjusting CSS and checking errors/bugs within the console.
+- W3C Validators, JSHint.
 
 The goal is to create a front-end web application that has interactive functionality and "Use[s] JavaScript to have the site produce relevant responses dependent on users' actions".
 
@@ -200,9 +201,9 @@ Blog-
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ3MDc3MTMzLDE4NTkyMjA3NzYsLTg1MT
-Q3NjU1OCwtMTI2NDk3MDYwMyw0ODQ0Njk2MDIsLTExMjIzODIy
-OTEsMzMxMzQxMzc2LC0zNDIyMjcwNDksLTE3NjU2Mjk0NzIsMT
-A5OTUyNTgxNSwxMzIyOTU1ODA4LDg4NTE1OTc0Miw3MzA5OTgx
-MTZdfQ==
+eyJoaXN0b3J5IjpbLTkyOTc5OTIyOCwxODU5MjIwNzc2LC04NT
+E0NzY1NTgsLTEyNjQ5NzA2MDMsNDg0NDY5NjAyLC0xMTIyMzgy
+MjkxLDMzMTM0MTM3NiwtMzQyMjI3MDQ5LC0xNzY1NjI5NDcyLD
+EwOTk1MjU4MTUsMTMyMjk1NTgwOCw4ODUxNTk3NDIsNzMwOTk4
+MTE2XX0=
 -->
