@@ -142,7 +142,7 @@ Deployment was actioned via Github.
 **Installation**
 (Using Gitpod IDE)
 
-Open new repository via Github. 
+Open a new repository via Github. 
 
 Sign up to Gitpod (If not previously done) and link to GitHub account.
 
@@ -163,7 +163,7 @@ Push to GitHub using the command
 
 You have your first copy of Super-Scholar. 
 
-To run the development version in Gitpod use the command "python3 -m http.server 8000" (or which ever port you prefer). This will trigger a pop up that will ask you if you wish to expose the port. Expose the port and on the additional modal click a selection to either "open preview" within Gitpod or "open in Browser".
+To run the development version in Gitpod use the command "python3 -m HTTP. server 8000" (or whichever port you prefer). This will trigger a pop up that will ask you if you wish to expose the port. Expose the port and on the additional modal click a selection to either "open preview" within Gitpod or "open in Browser".
 
 
 
@@ -205,7 +205,7 @@ Blog-
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTczNDE1NzYsMTg1OTIyMDc3NiwtOD
+eyJoaXN0b3J5IjpbLTE1ODQwMTQwMTksMTg1OTIyMDc3NiwtOD
 UxNDc2NTU4LC0xMjY0OTcwNjAzLDQ4NDQ2OTYwMiwtMTEyMjM4
 MjI5MSwzMzEzNDEzNzYsLTM0MjIyNzA0OSwtMTc2NTYyOTQ3Mi
 wxMDk5NTI1ODE1LDEzMjI5NTU4MDgsODg1MTU5NzQyLDczMDk5
