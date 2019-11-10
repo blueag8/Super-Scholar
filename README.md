@@ -141,9 +141,14 @@ pip install python3 (if not already installed).
 
 Initialize new Git Repository.
 
-
-
 Download/Clone and unpack "Super-Scholar Files".
+
+Add all files to git with the command "git add". 
+
+Make a commit using the command "git commit -m"My first Commit"
+
+push to GitHub using the command 
+"
 
 
 # Credits
@@ -184,7 +189,7 @@ Blog-
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2OTgyMzU3MCwxODU5MjIwNzc2LC04NT
+eyJoaXN0b3J5IjpbLTIwOTE5NDE5MywxODU5MjIwNzc2LC04NT
 E0NzY1NTgsLTEyNjQ5NzA2MDMsNDg0NDY5NjAyLC0xMTIyMzgy
 MjkxLDMzMTM0MTM3NiwtMzQyMjI3MDQ5LC0xNzY1NjI5NDcyLD
 EwOTk1MjU4MTUsMTMyMjk1NTgwOCw4ODUxNTk3NDIsNzMwOTk4
