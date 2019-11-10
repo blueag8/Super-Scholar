@@ -13,6 +13,10 @@ body {
     margin-bottom: 2em;
 
 }
+a {
+    color: #e1e1e1;
+    text-decoration: none;
+}
 
 span#scoreBoard{
     border-radius: 1em;
@@ -85,8 +89,8 @@ main#game {
 
 /*modal styling*/
 .btn-primary {
-    background-color: transparent;
-    border-color: transparent;
+   background-color: transparent;
+   border-color: transparent;
 }
 
 
@@ -109,6 +113,7 @@ main#game {
 
 /* play button style */
 button#playBtn {
+    background-color: #eceeef;
     border-radius: 2em;
     position: absolute;
     z-index: 1;
@@ -130,19 +135,13 @@ div#play {
 }
 
 #gameboard{
-    margin-left:-1;
+    margin-left:0;
 }
 
 span#scoreBoard {
 
-    margin: -1em;
+    margin: 0;
 
-}
-
-button#playBtn {
-    position: relative;
-    left: 50%;
-    margin: 1em;
 }
 span#timer {
 
