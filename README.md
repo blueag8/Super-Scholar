@@ -133,8 +133,14 @@ Deployment was actioned via Github.
 **Installation**
 (Using Gitpod IDE)
 
-clone
-Python3 
+Open new repository.
+
+pip install python3 (if not already installed).
+
+Initialize new Git Repository
+
+Download/Clone and unpack "Super-Scholar Files".
+
 
 # Credits
 
@@ -174,8 +180,9 @@ Blog-
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1OTIyMDc3NiwtODUxNDc2NTU4LC0xMj
-Y0OTcwNjAzLDQ4NDQ2OTYwMiwtMTEyMjM4MjI5MSwzMzEzNDEz
-NzYsLTM0MjIyNzA0OSwtMTc2NTYyOTQ3MiwxMDk5NTI1ODE1LD
-EzMjI5NTU4MDgsODg1MTU5NzQyLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbNTU0NTY5OTIwLDE4NTkyMjA3NzYsLTg1MT
+Q3NjU1OCwtMTI2NDk3MDYwMyw0ODQ0Njk2MDIsLTExMjIzODIy
+OTEsMzMxMzQxMzc2LC0zNDIyMjcwNDksLTE3NjU2Mjk0NzIsMT
+A5OTUyNTgxNSwxMzIyOTU1ODA4LDg4NTE1OTc0Miw3MzA5OTgx
+MTZdfQ==
 -->
