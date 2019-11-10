@@ -125,7 +125,7 @@ Within the "getScore" function I had to add a local function:
 
     document.getElementById("publishers"); onclick  =  function() { userInput  =  event.target.value; console.log(userInput);
 
-- 
+
 
 **Deployment**
 Deployment was actioned via Github.
@@ -135,7 +135,9 @@ Deployment was actioned via Github.
 
 Open new repository via Github. 
 
-Sign up to Gitpod and link to GitHub account. Once signed up a Gitpod button will be linked to your repository.  Click on this link to open the workspace environment. 
+Sign up to Gitpod (If not previously done) and link to GitHub account.
+
+ Once signed up a Gitpod button will be linked to your repository.  Click on this link to open the workspace environment. 
 
 pip install python3 (if not already installed).
 
@@ -194,9 +196,9 @@ Blog-
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjYzMzEwNywxODU5MjIwNzc2LC04NT
-E0NzY1NTgsLTEyNjQ5NzA2MDMsNDg0NDY5NjAyLC0xMTIyMzgy
-MjkxLDMzMTM0MTM3NiwtMzQyMjI3MDQ5LC0xNzY1NjI5NDcyLD
-EwOTk1MjU4MTUsMTMyMjk1NTgwOCw4ODUxNTk3NDIsNzMwOTk4
-MTE2XX0=
+eyJoaXN0b3J5IjpbLTE1MzM3NjM3ODEsMTg1OTIyMDc3NiwtOD
+UxNDc2NTU4LC0xMjY0OTcwNjAzLDQ4NDQ2OTYwMiwtMTEyMjM4
+MjI5MSwzMzEzNDEzNzYsLTM0MjIyNzA0OSwtMTc2NTYyOTQ3Mi
+wxMDk5NTI1ODE1LDEzMjI5NTU4MDgsODg1MTU5NzQyLDczMDk5
+ODExNl19
 -->
