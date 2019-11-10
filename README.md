@@ -17,6 +17,7 @@ Technologies used for this project include
 - HTML
 - CSS
 - Javascript
+- The Bootstrap Framework for form, modals and styling
 - Imported JavaScript & JQuery- For Modal.
 - Gitpod
 - Github
@@ -204,9 +205,9 @@ Blog-
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzOTEzMjg1OCwxODU5MjIwNzc2LC04NT
-E0NzY1NTgsLTEyNjQ5NzA2MDMsNDg0NDY5NjAyLC0xMTIyMzgy
-MjkxLDMzMTM0MTM3NiwtMzQyMjI3MDQ5LC0xNzY1NjI5NDcyLD
-EwOTk1MjU4MTUsMTMyMjk1NTgwOCw4ODUxNTk3NDIsNzMwOTk4
-MTE2XX0=
+eyJoaXN0b3J5IjpbLTE4NTczNDE1NzYsMTg1OTIyMDc3NiwtOD
+UxNDc2NTU4LC0xMjY0OTcwNjAzLDQ4NDQ2OTYwMiwtMTEyMjM4
+MjI5MSwzMzEzNDEzNzYsLTM0MjIyNzA0OSwtMTc2NTYyOTQ3Mi
+wxMDk5NTI1ODE1LDEzMjI5NTU4MDgsODg1MTU5NzQyLDczMDk5
+ODExNl19
 -->
