@@ -142,7 +142,7 @@ Deployment was actioned via Github.
 **Installation**
 (Using Gitpod IDE)
 
-Open new repository via Github. 
+Open a new repository via Github. 
 
 Sign up to Gitpod (If not previously done) and link to GitHub account.
 
@@ -163,7 +163,7 @@ Push to GitHub using the command
 
 You have your first copy of Super-Scholar. 
 
-To run the development version in Gitpod use the command "python3 -m http.server 8000" (or which ever port you prefer). This will trigger a pop up that will ask you if you wish to expose the port. Expose the port and on the additional modal click a selection to either "open preview" within Gitpod or "open in Browser".
+To run the development version in Gitpod use the command "python3 -m HTTP. server 8000" (or whichever port you prefer). This will trigger a pop up that will ask you if you wish to expose the port. Expose the port and on the additional modal click a selection to either "open preview" within Gitpod or "open in Browser".
 
 
 
@@ -177,6 +177,10 @@ Images accessed via connections-
 **Balsamiq**
 **Wireframes** produced using Balsamiq wireframes
 [https://balsamiq.com/](https://balsamiq.com/)
+
+**Cool Text**
+Logo and Button Generator.
+www.cooltext.com
 
 ## Acknowledgements
 
@@ -202,12 +206,25 @@ https://www.w3schools.com
 Blog-
 [https://josephephillips.com/blog/how-to-use-comic-vine-api-part1](https://josephephillips.com/blog/how-to-use-comic-vine-api-part1)
 
+Bootstrap
+[https://getbootstrap.com/docs/4.0/components/modal/](https://getbootstrap.com/docs/4.0/components/modal/)
+
+JSHint
+[https://jshint.com/](https://jshint.com/)
+
+W3C Validator
+[https://validator.w3.org/](https://validator.w3.org/)
+
+CDNJS
+[https://cdnjs.com/](https://cdnjs.com/)
+
+Jigsaw Validator for CSS
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTczNDE1NzYsMTg1OTIyMDc3NiwtOD
-UxNDc2NTU4LC0xMjY0OTcwNjAzLDQ4NDQ2OTYwMiwtMTEyMjM4
-MjI5MSwzMzEzNDEzNzYsLTM0MjIyNzA0OSwtMTc2NTYyOTQ3Mi
-wxMDk5NTI1ODE1LDEzMjI5NTU4MDgsODg1MTU5NzQyLDczMDk5
-ODExNl19
+eyJoaXN0b3J5IjpbNDE5OTc5NTQyLC0xMzYzODk5OTYxLDE4NT
+kyMjA3NzYsLTg1MTQ3NjU1OCwtMTI2NDk3MDYwMyw0ODQ0Njk2
+MDIsLTExMjIzODIyOTEsMzMxMzQxMzc2LC0zNDIyMjcwNDksLT
+E3NjU2Mjk0NzIsMTA5OTUyNTgxNSwxMzIyOTU1ODA4LDg4NTE1
+OTc0Miw3MzA5OTgxMTZdfQ==
 -->
