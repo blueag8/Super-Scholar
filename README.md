@@ -206,12 +206,19 @@ https://www.w3schools.com
 Blog-
 [https://josephephillips.com/blog/how-to-use-comic-vine-api-part1](https://josephephillips.com/blog/how-to-use-comic-vine-api-part1)
 
+Bootstrap
+[https://getbootstrap.com/docs/4.0/components/modal/](https://getbootstrap.com/docs/4.0/components/modal/)
+
+JSHint
+[https://jshint.com/](https://jshint.com/)
+
+W3C Validator\
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NzAxNTQ4LDE4NTkyMjA3NzYsLTg1MT
-Q3NjU1OCwtMTI2NDk3MDYwMyw0ODQ0Njk2MDIsLTExMjIzODIy
-OTEsMzMxMzQxMzc2LC0zNDIyMjcwNDksLTE3NjU2Mjk0NzIsMT
-A5OTUyNTgxNSwxMzIyOTU1ODA4LDg4NTE1OTc0Miw3MzA5OTgx
-MTZdfQ==
+eyJoaXN0b3J5IjpbMTI0MzIwMzEzMywxODU5MjIwNzc2LC04NT
+E0NzY1NTgsLTEyNjQ5NzA2MDMsNDg0NDY5NjAyLC0xMTIyMzgy
+MjkxLDMzMTM0MTM3NiwtMzQyMjI3MDQ5LC0xNzY1NjI5NDcyLD
+EwOTk1MjU4MTUsMTMyMjk1NTgwOCw4ODUxNTk3NDIsNzMwOTk4
+MTE2XX0=
 -->
